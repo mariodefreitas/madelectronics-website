@@ -70,23 +70,6 @@ export default function ContactPage() {
                                     </div>
                                     <div>
                                         <label
-                                            htmlFor="company"
-                                            className="block text-sm font-medium text-gray-700 mb-1"
-                                        >
-                                            Company
-                                        </label>
-                                        <input
-                                            type="text"
-                                            id="company"
-                                            name="company"
-                                            value={formData.company}
-                                            onChange={handleChange}
-                                            required
-                                            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
-                                        />
-                                    </div>
-                                    <div>
-                                        <label
                                             htmlFor="email"
                                             className="block text-sm font-medium text-gray-700 mb-1"
                                         >
