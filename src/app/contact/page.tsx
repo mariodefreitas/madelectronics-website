@@ -149,14 +149,14 @@ export default function ContactPage() {
                                             <h3 className="text-lg font-semibold text-teal-600 mb-2">
                                                 Email
                                             </h3>
-                                            <p className="text-gray-600">info@template.com</p>
+                                            <p className="text-gray-600">info@madelectronics.com</p>
                                         </div>
                                         <div>
                                             <h3 className="text-lg font-semibold text-teal-600 mb-2">
                                                 Office Hours
                                             </h3>
                                             <p className="text-gray-600">
-                                                Monday - Friday: 9:00 AM - 6:00 PM
+                                                Monday - Friday: 8:00 AM - 5:00 PM
                                             </p>
                                         </div>
                                         <div>
