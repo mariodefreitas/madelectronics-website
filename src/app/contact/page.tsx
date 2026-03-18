@@ -8,7 +8,6 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 export default function ContactPage() {
     const [formData, setFormData] = useState({
         name: "",
-        company: "",
         email: "",
         message: "",
     });
@@ -16,7 +15,7 @@ export default function ContactPage() {
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         console.log("Form submitted:", formData);
-        setFormData({ name: "", company: "", email: "", message: "" });
+        setFormData({ name: "", email: "", message: "" });
         alert("Thank you for your message. We will get back to you soon!");
     };
 
@@ -163,7 +162,7 @@ export default function ContactPage() {
                                             <h3 className="text-lg font-semibold text-teal-600 mb-2">
                                                 Location
                                             </h3>
-                                            <p className="text-gray-600">Template Location</p>
+                                            <p className="text-gray-600">Solihull and Surrounding areas</p>
                                         </div>
                                     </div>
                                 </CardContent>
