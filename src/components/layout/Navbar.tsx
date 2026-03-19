@@ -24,8 +24,8 @@ const Navbar = () => {
                                 <Image
                                 src="/images/MAD.jpg"
                                 alt="Logo Image"
-                                width={80}
-                                height={80}
+                                width={160}
+                                height={160}
                                 />
                             </span>
                         </Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
                             <Link
                                 key={item.href}
                                 href={item.href}
-                                className="text-gray-700 hover:text-[#d21313] px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                                className="text-gray-700 hover:text-[red-700] px-3 py-2 rounded-md text-sm font-medium transition-colors"
                             >
                                 {item.label}
                             </Link>
@@ -68,7 +68,7 @@ const Navbar = () => {
                             <Link
                                 key={item.href}
                                 href={item.href}
-                                className="text-gray-700 hover:text-[#d21313] block px-3 py-2 rounded-md text-base font-medium"
+                                className="text-gray-700 hover:text-[red-700] block px-3 py-2 rounded-md text-base font-medium"
                                 onClick={() => setIsOpen(false)}
                             >
                                 {item.label}
