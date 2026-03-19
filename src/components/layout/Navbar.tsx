@@ -20,12 +20,12 @@ const Navbar = () => {
                 <div className="flex justify-between h-20">
                     <div className="flex items-center">
                         <Link href="/" className="flex-shrink-0">
-                            <span className="text-2xl font-bold text-[#373643]">
+                            <span className="relative h-6 mb-6">>
                                 <Image
                                 src="/images/MAD.jpg"
                                 alt="Logo Image"
-                                width={2000}
-                                height={2000}
+                                width={200}
+                                height={200}
                                 />
                             </span>
                         </Link>
