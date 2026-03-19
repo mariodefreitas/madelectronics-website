@@ -20,7 +20,7 @@ const Navbar = () => {
                 <div className="flex justify-between h-20">
                     <div className="flex items-center">
                         <Link href="/" className="flex-shrink-0">
-                            <span className="relative h-6 mb-6">
+                            <span className="relative h-3 mb-3">
                                 <Image
                                 src="/images/MAD.jpg"
                                 alt="Logo Image"
