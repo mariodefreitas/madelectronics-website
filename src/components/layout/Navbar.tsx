@@ -22,7 +22,7 @@ const Navbar = () => {
                         <Link href="/" className="flex-shrink-0">
                             <span>
                                 <Image
-                                src="/images/MAD.jpg"
+                                src="/images/MAD Electronics.jpg"
                                 alt="Logo Image"
                                 width={160}
                                 height={160}
