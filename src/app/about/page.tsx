@@ -45,7 +45,7 @@ export default function AboutPage() {
     return (
         <div className="min-h-screen bg-white">
             {/* Hero Section */}
-            <div className="bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 text-white py-20">
+            <div className="bg-gradient-to-r from-#d21313-400 via-#d21313-500 to-#d21313-600 text-white py-20">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h1 className="text-4xl font-bold mb-6">About Template</h1>
                     <p className="text-xl max-w-3xl">
@@ -84,7 +84,7 @@ export default function AboutPage() {
             </div>
 
             {/* Leadership Team */}
-            <div className="bg-teal-50 py-16">
+            <div className="bg-#d21313-50 py-16">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
                         Our Leadership
@@ -109,7 +109,7 @@ export default function AboutPage() {
                                             <h3 className="text-xl font-bold text-gray-800 mb-2">
                                                 {member.name}
                                             </h3>
-                                            <p className="text-teal-600 mb-4">{member.role}</p>
+                                            <p className="text-#d21313-600 mb-4">{member.role}</p>
                                             <p className="text-gray-600">{member.bio}</p>
                                         </div>
                                     </div>
@@ -130,7 +130,7 @@ export default function AboutPage() {
                         {values.map((value, index) => (
                             <Card key={index} className="hover:shadow-lg transition-shadow">
                                 <CardContent className="pt-6">
-                                    <h3 className="text-xl font-semibold mb-4 text-teal-600">
+                                    <h3 className="text-xl font-semibold mb-4 text-#d21313-600">
                                         {value.title}
                                     </h3>
                                     <p className="text-gray-600">{value.description}</p>

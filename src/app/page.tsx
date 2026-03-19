@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <div className="w-full">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 text-white">
+      <section className="bg-gradient-to-r from-#d21313-400 via-#d21313-500 to-#d21313-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
@@ -47,7 +47,7 @@ export default function Home() {
                 business pitch or value proposition.
               </p>
               <Link href="/services">
-                <Button className="bg-white text-teal-500 hover:bg-gray-100">
+                <Button className="bg-white text-#d21313-500 hover:bg-gray-100">
                   Template Button
                 </Button>
               </Link>
@@ -72,11 +72,11 @@ export default function Home() {
               Template Features Section
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="p-6 bg-teal-50 rounded-lg hover:shadow-lg transition-all">
+              <div className="p-6 bg-#d21313-50 rounded-lg hover:shadow-lg transition-all">
                 <div className="flex justify-center mb-6">
-                  <Cpu className="w-12 h-12 text-teal-500" />
+                  <Cpu className="w-12 h-12 text-#d21313-500" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4 text-teal-600">
+                <h3 className="text-xl font-semibold mb-4 text-#d21313-600">
                   Template Feature 1
                 </h3>
                 <p className="text-gray-600">
@@ -84,11 +84,11 @@ export default function Home() {
                   feature details.
                 </p>
               </div>
-              <div className="p-6 bg-teal-50 rounded-lg hover:shadow-lg transition-all">
+              <div className="p-6 bg-#d21313-50 rounded-lg hover:shadow-lg transition-all">
                 <div className="flex justify-center mb-6">
-                  <Users className="w-12 h-12 text-teal-500" />
+                  <Users className="w-12 h-12 text-#d21313-500" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4 text-teal-600">
+                <h3 className="text-xl font-semibold mb-4 text-#d21313-600">
                   Template Feature 2
                 </h3>
                 <p className="text-gray-600">
@@ -96,11 +96,11 @@ export default function Home() {
                   feature details.
                 </p>
               </div>
-              <div className="p-6 bg-teal-50 rounded-lg hover:shadow-lg transition-all">
+              <div className="p-6 bg-#d21313-50 rounded-lg hover:shadow-lg transition-all">
                 <div className="flex justify-center mb-6">
-                  <Heart className="w-12 h-12 text-teal-500" />
+                  <Heart className="w-12 h-12 text-#d21313-500" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4 text-teal-600">
+                <h3 className="text-xl font-semibold mb-4 text-#d21313-600">
                   Template Feature 3
                 </h3>
                 <p className="text-gray-600">
@@ -110,7 +110,7 @@ export default function Home() {
               </div>
             </div>
             <Link href="/about" className="mt-8 inline-block">
-              <Button className="bg-teal-500 text-white hover:bg-teal-600">
+              <Button className="bg-#d21313-500 text-white hover:bg-#d21313-600">
                 Template About Button
               </Button>
             </Link>
@@ -119,7 +119,7 @@ export default function Home() {
       </section>
 
       {/* Offers Section */}
-      <section className="py-20 bg-teal-50">
+      <section className="py-20 bg-#d21313-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
             Template Services Section
@@ -161,7 +161,7 @@ export default function Home() {
             contact message.
           </p>
           <Link href="/contact">
-            <Button className="bg-teal-500 text-white hover:bg-teal-600">
+            <Button className="bg-#d21313-500 text-white hover:bg-#d21313-600">
               Template Contact Button
             </Button>
           </Link>

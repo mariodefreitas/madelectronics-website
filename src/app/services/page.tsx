@@ -47,7 +47,7 @@ export default function ServicesPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 text-white py-20">
+      <div className="bg-gradient-to-r from-#d21313-400 via-#d21313-500 to-#d21313-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold mb-6">Our Services</h1>
           <p className="text-xl max-w-3xl">
@@ -88,14 +88,14 @@ export default function ServicesPage() {
                     </p>
                   </div>
 
-                  <div className="bg-teal-50 p-6 rounded-lg">
-                    <h3 className="text-xl font-semibold mb-4 text-teal-600">
+                  <div className="bg-#d21313-50 p-6 rounded-lg">
+                    <h3 className="text-xl font-semibold mb-4 text-#d21313-600">
                       Key Features
                     </h3>
                     <ul className="space-y-4">
                       {service.features.map((feature, idx) => (
                         <li key={idx} className="flex items-start gap-3">
-                          <CheckCircle2 className="w-6 h-6 text-teal-500 flex-shrink-0 mt-0.5" />
+                          <CheckCircle2 className="w-6 h-6 text-#d21313-500 flex-shrink-0 mt-0.5" />
                           <span className="text-gray-700">{feature}</span>
                         </li>
                       ))}
@@ -109,7 +109,7 @@ export default function ServicesPage() {
       </div>
 
       {/* Why Choose Us Section */}
-      <div className="bg-teal-50 py-16">
+      <div className="bg-#d21313-50 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
             Why Choose Our Services?
@@ -117,7 +117,7 @@ export default function ServicesPage() {
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="bg-white hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
-                <h3 className="text-xl font-semibold mb-4 text-teal-600">
+                <h3 className="text-xl font-semibold mb-4 text-#d21313-600">
                   Template Benefit 1
                 </h3>
                 <p className="text-gray-600">
@@ -128,7 +128,7 @@ export default function ServicesPage() {
             </Card>
             <Card className="bg-white hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
-                <h3 className="text-xl font-semibold mb-4 text-teal-600">
+                <h3 className="text-xl font-semibold mb-4 text-#d21313-600">
                   Template Benefit 2
                 </h3>
                 <p className="text-gray-600">
@@ -139,7 +139,7 @@ export default function ServicesPage() {
             </Card>
             <Card className="bg-white hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
-                <h3 className="text-xl font-semibold mb-4 text-teal-600">
+                <h3 className="text-xl font-semibold mb-4 text-#d21313-600">
                   Template Benefit 3
                 </h3>
                 <p className="text-gray-600">
