@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-//import Image from "next/image";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
@@ -21,7 +21,12 @@ const Navbar = () => {
                     <div className="flex items-center">
                         <Link href="/" className="flex-shrink-0">
                             <span className="text-2xl font-bold text-[#373643]">
-                            No Logo
+                                <Image
+                                src="/images/MAD.jpg"
+                                alt="Logo Image"
+                                width={200}
+                                height={200}
+                                />
                             </span>
                         </Link>
                     </div>

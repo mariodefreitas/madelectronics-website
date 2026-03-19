@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-//import Image from "next/image";
+import Image from "next/image";
 import { Mail, MapPin, Clock, Phone } from "lucide-react";
 
 const Footer = () => {
@@ -10,7 +10,13 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <span className="text-2xl font-bold text-white mb-6 block">No Logo
+            <span className="text-2xl font-bold text-white mb-6 block">
+                <Image
+                    src="/images/MAD.jpg"
+                    alt="Logo Image"
+                    width={200}
+                    height={200}  
+                />
             </span>
             <p className="text-sm text-gray-300">
               A brief description of your company can go here.

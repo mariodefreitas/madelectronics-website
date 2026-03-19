@@ -118,9 +118,9 @@ export default function ContactPage() {
                         <div>
                             <div className="relative h-64 mb-6">
                                 <Image
-                                    src="/images/MAD.jpg"
+                                    src="/images/contact.jpg"
                                     alt="Contact Us"
-                                    stretch
+                                    fill
                                     className="rounded-lg object-cover"
                                 />
                             </div>
