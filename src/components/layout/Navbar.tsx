@@ -22,8 +22,8 @@ const Navbar = () => {
                         <Image
                             src="/images/MAD Electronics.jpg"
                             alt="Logo Image"
-                            width={130}
-                            height={130}
+                            width={140}
+                            height={140}
                         />
                     </span>
                     <div className="flex items-center">
