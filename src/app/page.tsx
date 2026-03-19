@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <div className="w-full">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600 text-white">
+      <section className="bg-gradient-to-r from-yellow-500 via-orange-600 to-red-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
@@ -47,7 +47,7 @@ export default function Home() {
                 business pitch or value proposition.
               </p>
               <Link href="/services">
-                <Button className="bg-white text-red-500 hover:bg-gray-100">
+                <Button className="bg-white text-red-700 hover:bg-gray-100">
                   Template Button
                 </Button>
               </Link>
@@ -74,9 +74,9 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="p-6 bg-red-50 rounded-lg hover:shadow-lg transition-all">
                 <div className="flex justify-center mb-6">
-                  <Cpu className="w-12 h-12 text-red-500" />
+                  <Cpu className="w-12 h-12 text-red-700" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4 text-red-600">
+                <h3 className="text-xl font-semibold mb-4 text-red-700">
                   Template Feature 1
                 </h3>
                 <p className="text-gray-600">
@@ -86,9 +86,9 @@ export default function Home() {
               </div>
               <div className="p-6 bg-red-50 rounded-lg hover:shadow-lg transition-all">
                 <div className="flex justify-center mb-6">
-                  <Users className="w-12 h-12 text-red-500" />
+                  <Users className="w-12 h-12 text-red-700" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4 text-red-600">
+                <h3 className="text-xl font-semibold mb-4 text-red-700">
                   Template Feature 2
                 </h3>
                 <p className="text-gray-600">
@@ -98,9 +98,9 @@ export default function Home() {
               </div>
               <div className="p-6 bg-red-50 rounded-lg hover:shadow-lg transition-all">
                 <div className="flex justify-center mb-6">
-                  <Heart className="w-12 h-12 text-red-500" />
+                  <Heart className="w-12 h-12 text-red-700" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4 text-red-600">
+                <h3 className="text-xl font-semibold mb-4 text-red-700">
                   Template Feature 3
                 </h3>
                 <p className="text-gray-600">
@@ -110,7 +110,7 @@ export default function Home() {
               </div>
             </div>
             <Link href="/about" className="mt-8 inline-block">
-              <Button className="bg-red-500 text-white hover:bg-red-600">
+              <Button className="bg-red-700 text-white hover:bg-red-800">
                 Template About Button
               </Button>
             </Link>
@@ -161,7 +161,7 @@ export default function Home() {
             contact message.
           </p>
           <Link href="/contact">
-            <Button className="bg-red-500 text-white hover:bg-red-600">
+            <Button className="bg-red-700 text-white hover:bg-red-800">
               Template Contact Button
             </Button>
           </Link>

@@ -29,7 +29,7 @@ export default function ContactPage() {
     return (
         <div className="min-h-screen bg-white">
             {/* Hero Section */}
-            <div className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600 text-white py-20">
+            <div className="bg-gradient-to-r from-yellow-500 via-orange-600 to-red-700 text-white py-20">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h1 className="text-4xl font-bold mb-6">Contact Us</h1>
                     <p className="text-xl max-w-3xl">
@@ -128,13 +128,13 @@ export default function ContactPage() {
                                 <CardContent className="pt-6">
                                     <div className="space-y-4">
                                         <div>
-                                            <h3 className="text-lg font-semibold text-red-600 mb-2">
+                                            <h3 className="text-lg font-semibold text-red-700 mb-2">
                                                 Email
                                             </h3>
                                             <p className="text-gray-600">info@madelectronics.com</p>
                                         </div>
                                         <div>
-                                            <h3 className="text-lg font-semibold text-red-600 mb-2">
+                                            <h3 className="text-lg font-semibold text-red-700 mb-2">
                                                 Office Hours
                                             </h3>
                                             <p className="text-gray-600">
@@ -142,7 +142,7 @@ export default function ContactPage() {
                                             </p>
                                         </div>
                                         <div>
-                                            <h3 className="text-lg font-semibold text-red-600 mb-2">
+                                            <h3 className="text-lg font-semibold text-red-700 mb-2">
                                                 Location
                                             </h3>
                                             <p className="text-gray-600">Solihull and Surrounding areas</p>
