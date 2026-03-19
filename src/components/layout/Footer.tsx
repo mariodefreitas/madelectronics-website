@@ -18,7 +18,7 @@ const Footer = () => {
                     height={100}  
                 />
             </span>
-            <p className="text-sm text-gray-300">
+            <p className="text-sm text-gray-300 py-12">
               A brief description of your company can go here.
             </p>
           </div>
