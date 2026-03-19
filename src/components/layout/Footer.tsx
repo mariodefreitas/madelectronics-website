@@ -28,7 +28,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/services"
-                  className="text-sm text-gray-300 hover:text-[#5ac3c6]"
+                  className="text-sm text-gray-300 hover:text-[#d21313]"
                 >
                   Services 1
                 </Link>
@@ -36,7 +36,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/services"
-                  className="text-sm text-gray-300 hover:text-[#5ac3c6]"
+                  className="text-sm text-gray-300 hover:text-[#d21313]"
                 >
                   Services 2
                 </Link>
@@ -44,7 +44,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/services"
-                  className="text-sm text-gray-300 hover:text-[#5ac3c6]"
+                  className="text-sm text-gray-300 hover:text-[#d21313]"
                 >
                   Services 3
                 </Link>
@@ -57,7 +57,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/services"
-                  className="text-sm text-gray-300 hover:text-[#5ac3c6]"
+                  className="text-sm text-gray-300 hover:text-[#d21313]"
                 >
                   Services
                 </Link>
@@ -65,7 +65,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/about"
-                  className="text-sm text-gray-300 hover:text-[#5ac3c6]"
+                  className="text-sm text-gray-300 hover:text-[#d21313]"
                 >
                   About Us
                 </Link>
@@ -73,7 +73,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/contact"
-                  className="text-sm text-gray-300 hover:text-[#5ac3c6]"
+                  className="text-sm text-gray-300 hover:text-[#d21313]"
                 >
                   Contact
                 </Link>
@@ -84,19 +84,19 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-sm text-gray-300">
-                <Mail size={18} className="text-[#5ac3c6]" />
+                <Mail size={18} className="text-[#d21313]" />
                 <span>info@madelectroics.com</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-gray-300">
-                <Phone size={18} className="text-[#5ac3c6]" />
+                <Phone size={18} className="text-[#d21313]" />
                 <span>+44 741 519 0809</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-gray-300">
-                <MapPin size={18} className="text-[#5ac3c6]" />
+                <MapPin size={18} className="text-[#d21313]" />
                 <span>Solihull and Surrounding areas</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-gray-300">
-                <Clock size={18} className="text-[#5ac3c6]" />
+                <Clock size={18} className="text-[#d21313]" />
                 <span>Mon - Fri: 8:00 AM - 5:00 PM</span>
               </li>
             </ul>
