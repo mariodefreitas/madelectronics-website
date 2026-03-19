@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <div className="w-full">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-700 text-white">
+      <section className="bg-gradient-to-r from-green-400 via-orange-500 to-red-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
@@ -65,7 +65,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-          <section className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-700  text-white">
+          <section className="bg-gradient-to-r from-green-400 via-orange-500 to-red-700  text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
