@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <span className="relative h-6 mb-6">
+            <span>
                 <Image
                     src="/images/MAD.jpg"
                     alt="Logo Image"
