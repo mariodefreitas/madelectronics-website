@@ -45,7 +45,7 @@ export default function ServicesPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-red">
+    <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -63,7 +63,7 @@ export default function ServicesPage() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-red rounded-lg overflow-hidden transition-shadow"
+              className="bg-white rounded-lg overflow-hidden transition-shadow"
             >
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div
@@ -115,7 +115,7 @@ export default function ServicesPage() {
             Why Choose Our Services?
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="bg-red hover:shadow-lg transition-shadow">
+            <Card className="bg-white hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
                 <h3 className="text-xl font-semibold mb-4 text-teal-600">
                   Template Benefit 1
@@ -126,7 +126,7 @@ export default function ServicesPage() {
                 </p>
               </CardContent>
             </Card>
-            <Card className="bg-red hover:shadow-lg transition-shadow">
+            <Card className="bg-white hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
                 <h3 className="text-xl font-semibold mb-4 text-teal-600">
                   Template Benefit 2
@@ -137,7 +137,7 @@ export default function ServicesPage() {
                 </p>
               </CardContent>
             </Card>
-            <Card className="bg-red hover:shadow-lg transition-shadow">
+            <Card className="bg-white hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
                 <h3 className="text-xl font-semibold mb-4 text-teal-600">
                   Template Benefit 3
