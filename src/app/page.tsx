@@ -65,7 +65,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="bg.banner-gradient from-teal-400 via-teal-500 to-teal-600 text-white">
+      <section className="bg-gradient-to-r text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
