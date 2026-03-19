@@ -29,7 +29,7 @@ export default function ContactPage() {
     return (
         <div className="min-h-screen bg-white">
             {/* Hero Section */}
-            <div className="bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 text-white py-20">
+            <div className="bg-gradient-to-r from-orange-400 via-orange-500 to-orange-600 text-white py-20">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h1 className="text-4xl font-bold mb-6">Contact Us</h1>
                     <p className="text-xl max-w-3xl">
@@ -43,7 +43,7 @@ export default function ContactPage() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
                 <div className="grid md:grid-cols-2 gap-12">
                     <div>
-                        <Card className="border-teal-100">
+                        <Card className="border-orange-100">
                             <CardHeader>
                                 <CardTitle className="text-2xl text-gray-800">
                                     Send Us a Message
@@ -65,7 +65,7 @@ export default function ContactPage() {
                                             value={formData.name}
                                             onChange={handleChange}
                                             required
-                                            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
+                                            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
                                         />
                                     </div>
                                     <div>
@@ -82,7 +82,7 @@ export default function ContactPage() {
                                             value={formData.email}
                                             onChange={handleChange}
                                             required
-                                            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
+                                            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
                                         />
                                     </div>
                                     <div>
@@ -99,12 +99,12 @@ export default function ContactPage() {
                                             onChange={handleChange}
                                             required
                                             rows={4}
-                                            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
+                                            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
                                         />
                                     </div>
                                     <Button
                                         type="submit"
-                                        className="w-full bg-teal-500 hover:bg-teal-600 text-white transition-colors"
+                                        className="w-full bg-orange-500 hover:bg-orange-600 text-white transition-colors"
                                     >
                                         Send Message
                                     </Button>
@@ -124,17 +124,17 @@ export default function ContactPage() {
                                     className="rounded-lg object-cover"
                                 />
                             </div>
-                            <Card className="border-teal-100">
+                            <Card className="border-orange-100">
                                 <CardContent className="pt-6">
                                     <div className="space-y-4">
                                         <div>
-                                            <h3 className="text-lg font-semibold text-teal-600 mb-2">
+                                            <h3 className="text-lg font-semibold text-orange-600 mb-2">
                                                 Email
                                             </h3>
                                             <p className="text-gray-600">info@madelectronics.com</p>
                                         </div>
                                         <div>
-                                            <h3 className="text-lg font-semibold text-teal-600 mb-2">
+                                            <h3 className="text-lg font-semibold text-orange-600 mb-2">
                                                 Office Hours
                                             </h3>
                                             <p className="text-gray-600">
@@ -142,7 +142,7 @@ export default function ContactPage() {
                                             </p>
                                         </div>
                                         <div>
-                                            <h3 className="text-lg font-semibold text-teal-600 mb-2">
+                                            <h3 className="text-lg font-semibold text-orange-600 mb-2">
                                                 Location
                                             </h3>
                                             <p className="text-gray-600">Solihull and Surrounding areas</p>
