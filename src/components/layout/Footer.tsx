@@ -14,7 +14,6 @@ const Footer = () => {
                 <Image
                     src="/images/MAD.jpg"
                     alt="Logo Image"
-                    className="rounded-lg object-cover"
                 />
             </span>
             <p className="text-sm text-gray-300">
