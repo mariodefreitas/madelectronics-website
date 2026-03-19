@@ -15,7 +15,7 @@ const Navbar = () => {
     ];
 
     return (
-        <nav className="bg-white shadow-sm fixed w-full z-full py-3">
+        <nav className="bg-white shadow-sm fixed w-full z-50 py-3">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-20">
                     <div className="flex items-center">
@@ -24,8 +24,8 @@ const Navbar = () => {
                                 <Image
                                 src="/images/MAD Electronics.jpg"
                                 alt="Logo Image"
-                                width={160}
-                                height={160}
+                                width={100}
+                                height={100}
                                 />
                             </span>
                         </Link>
