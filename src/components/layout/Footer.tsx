@@ -14,6 +14,8 @@ const Footer = () => {
                 <Image
                     src="/images/MAD.jpg"
                     alt="Logo Image"
+                    width={10}
+                    height={10}   
                 />
             </span>
             <p className="text-sm text-gray-300">
