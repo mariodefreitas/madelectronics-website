@@ -6,19 +6,19 @@ import { Cpu, Users, Heart } from "lucide-react";
 export default function Home() {
   const offers = [
     {
-      title: "Template Service 1",
+      title: "Laptop Repair",
       description:
         "This is a template service description. Replace this text with your actual service details.",
       image: "/images/service1.jpg",
     },
     {
-      title: "Template Service 2",
+      title: "Smart Phone Repair",
       description:
         "This is a template service description. Replace this text with your actual service details.",
       image: "/images/service2.jpg",
     },
     {
-      title: "Template Service 3",
+      title: "Tablets Repair",
       description:
         "This is a template service description. Replace this text with your actual service details.",
       image: "/images/service3.jpg",
@@ -39,7 +39,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Mad Electronics
+                MAD Electronics
               </h1>
               <p className="text-lg mb-8">
                 This is a template hero description. Replace this text with your
@@ -48,7 +48,7 @@ export default function Home() {
               </p>
               <Link href="/services">
                 <Button className="bg-green-500 text-white hover:bg-gray-100">
-                  Services
+                  Our Services
                 </Button>
               </Link>
             </div>
@@ -77,7 +77,7 @@ export default function Home() {
                   <Cpu className="w-12 h-12 text-green-500" />
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-green-500">
-                  Feature 1
+                  Laptop Repair
                 </h3>
                 <p className="text-gray-600">
                   This is a template feature description. Replace with your
@@ -89,7 +89,7 @@ export default function Home() {
                   <Users className="w-12 h-12 text-green-500" />
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-green-500">
-                  Feature 2
+                  Smart Phone Repair
                 </h3>
                 <p className="text-gray-600">
                   This is a template feature description. Replace with your
@@ -101,7 +101,7 @@ export default function Home() {
                   <Heart className="w-12 h-12 text-green-500" />
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-green-500">
-                  Feature 3
+                  Tablets Repair
                 </h3>
                 <p className="text-gray-600">
                   This is a template feature description. Replace with your
@@ -161,7 +161,7 @@ export default function Home() {
           </p>
           <Link href="/contact">
             <Button className="bg-green-500 text-white hover:bg-green-700 by-6">
-              Fix Me
+              Fix My Device
             </Button>
           </Link>
         </div>

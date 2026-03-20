@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { Mail, MapPin, Clock, Phone } from "lucide-react";
+import { Mail, MapPin, Clock } from "lucide-react"; {/*Phone*/ }
 
 const Footer = () => {
   return (
@@ -87,10 +87,10 @@ const Footer = () => {
                 <Mail size={18} className="text-green-500" />
                 <span>info@madelectroics.com</span>
               </li>
-              <li className="flex items-center gap-2 text-sm text-gray-300">
+                {/*<li className="flex items-center gap-2 text-sm text-gray-300">
                 <Phone size={18} className="text-green-500" />
                 <span>+44 741 519 0809</span>
-              </li>
+              </li>*/}
               <li className="flex items-center gap-2 text-sm text-gray-300">
                 <MapPin size={18} className="text-green-500" />
                 <span>Solihull and Surrounding Areas</span>

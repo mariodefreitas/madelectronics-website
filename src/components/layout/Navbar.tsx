@@ -9,9 +9,9 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const navItems = [
-        { label: "Our Services", href: "/services" },
-        { label: "About Us", href: "/about" },
-        { label: "Contact Us", href: "/contact" },
+        { label: "Our Services", href: "/services", className: "bg- white text-gray-700 hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium transition-colors" },
+        { label: "About Us", href: "/about", className: "bg- white text-gray-700 hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium transition-colors" },
+        { label: "Fix My Device", href: "/contact", className: "bg-green-500 text-gray-700 hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium transition-colors" },
     ];
 
     return (
@@ -35,7 +35,7 @@ const Navbar = () => {
                             <Link
                                 key={item.href}
                                 href={item.href}
-                                className="text-gray-700 hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                                className={item.className}
                             >
                                 {item.label}
                             </Link>
