@@ -4,6 +4,8 @@ import { useState } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import emailjs from '@emailjs/browser';
+
 
 export default function ContactPage() {
     const [formData, setFormData] = useState({
@@ -16,8 +18,25 @@ export default function ContactPage() {
         e.preventDefault();
         console.log("Form submitted:", formData);
         setFormData({ name: "", email: "", message: "" });
-        alert("Thank you for your message. We will get back to you soon!");
-    };
+
+        emailjs
+            .sendForm('service_0e7y6uh', 'template_cialp4p', formData, {
+                publicKey: 'Puy0bUNBW9HbYulI4',
+            })
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                    alert("Thank you for your message. We will get back to you soon!");
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                },
+            );
+        };
+
+
+
+    
 
     const handleChange = (
         e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
