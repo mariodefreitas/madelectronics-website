@@ -110,7 +110,7 @@ export default function Home() {
               </div>
             </div>
             <Link href="/about" className="mt-8 inline-block">
-              <Button className="bg-green-500 text-white hover:bg-green-700 py-8>
+              <Button className="bg-green-500 text-white hover:bg-green-700 py-8">
                 About Us
               </Button>
             </Link>
