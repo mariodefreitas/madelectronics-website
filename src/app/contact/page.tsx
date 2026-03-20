@@ -33,9 +33,7 @@ export default function ContactPage() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h1 className="text-4xl font-bold mb-6">Fix My Device</h1>
                     <p className="text-xl max-w-3xl">
-                        In the message below please provide the exact device model (for example a board, laptop, controller, module).
-                        Let me know if the device has been serviced, repaired or opened before.
-                        Describe the symptoms and a short history (for example drop, liquid damage, power surge).
+                        In the message below please provide the device model and describe the symptoms, a short history as to what happened or went wrong.
                     </p>
                 </div>
             </div>

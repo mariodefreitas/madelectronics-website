@@ -68,7 +68,7 @@ export default function Home() {
           <section className="bg-gradient-to-r from-orange-400 via-orange-500 to-red-700  text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Features
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -110,7 +110,7 @@ export default function Home() {
               </div>
             </div>
             <Link href="/about" className="mt-8 inline-block">
-              <Button className="bg-green-500 text-white hover:bg-green-700 py-6">
+              <Button className="bg-green-500 text-white hover:bg-green-700 py-8>
                 About Us
               </Button>
             </Link>
