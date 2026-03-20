@@ -39,7 +39,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Template Hero Title
+                Mad Electronics
               </h1>
               <p className="text-lg mb-8">
                 This is a template hero description. Replace this text with your
@@ -48,7 +48,7 @@ export default function Home() {
               </p>
               <Link href="/services">
                 <Button className="bg-green-500 text-white hover:bg-gray-100">
-                  Template Button
+                  Services
                 </Button>
               </Link>
             </div>
@@ -69,39 +69,39 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
-              Template Features Section
+              Features
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="p-6 bg-red-50 rounded-lg hover:shadow-lg transition-all">
+              <div className="p-6 bg-orange-50 rounded-lg hover:shadow-lg transition-all">
                 <div className="flex justify-center mb-6">
                   <Cpu className="w-12 h-12 text-green-500" />
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-green-500">
-                  Template Feature 1
+                  Feature 1
                 </h3>
                 <p className="text-gray-600">
                   This is a template feature description. Replace with your
                   feature details.
                 </p>
               </div>
-              <div className="p-6 bg-red-50 rounded-lg hover:shadow-lg transition-all">
+              <div className="p-6 bg-orange-50 rounded-lg hover:shadow-lg transition-all">
                 <div className="flex justify-center mb-6">
                   <Users className="w-12 h-12 text-green-500" />
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-green-500">
-                  Template Feature 2
+                  Feature 2
                 </h3>
                 <p className="text-gray-600">
                   This is a template feature description. Replace with your
                   feature details.
                 </p>
               </div>
-              <div className="p-6 bg-red-50 rounded-lg hover:shadow-lg transition-all">
+              <div className="p-6 bg-orange-50 rounded-lg hover:shadow-lg transition-all">
                 <div className="flex justify-center mb-6">
                   <Heart className="w-12 h-12 text-green-500" />
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-green-500">
-                  Template Feature 3
+                  Feature 3
                 </h3>
                 <p className="text-gray-600">
                   This is a template feature description. Replace with your
@@ -111,7 +111,7 @@ export default function Home() {
             </div>
             <Link href="/about" className="mt-8 inline-block">
               <Button className="bg-green-500 text-white hover:bg-green-700">
-                Template About Button
+                About Us
               </Button>
             </Link>
           </div>
@@ -119,10 +119,10 @@ export default function Home() {
       </section>
 
       {/* Offers Section */}
-      <section className="py-20 bg-red-50">
+      <section className="py-20 bg-orange-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
-            Template Services Section
+            Services
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {offers.map((offer, index) => (
@@ -154,15 +154,14 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-800 mb-6">
-            Template Contact Section
+            Let's Get it Fixed
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            This is a template contact section description. Replace with your
-            contact message.
+            Have a Device that needs a Repair. Get in touch.
           </p>
           <Link href="/contact">
-            <Button className="bg-green-500 text-white hover:bg-green-700">
-              Template Contact Button
+            <Button className="bg-green-500 text-white hover:bg-green-700 by-6">
+              Fix Me
             </Button>
           </Link>
         </div>

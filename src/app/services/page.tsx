@@ -88,7 +88,7 @@ export default function ServicesPage() {
                     </p>
                   </div>
 
-                  <div className="bg-red-50 p-6 rounded-lg">
+                  <div className="bg-orange-50 p-6 rounded-lg">
                     <h3 className="text-xl font-semibold mb-4 text-green-500">
                       Key Features
                     </h3>
@@ -109,7 +109,7 @@ export default function ServicesPage() {
       </div>
 
       {/* Why Choose Us Section */}
-      <div className="bg-red-50 py-16">
+      <div className="bg-orange-50 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
             Why Choose Our Services?

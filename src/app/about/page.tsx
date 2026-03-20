@@ -84,7 +84,7 @@ export default function AboutPage() {
             </div>
 
             {/* Leadership Team */}
-            <div className="bg-red-50 py-16">
+            <div className="bg-orange-50 py-16">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
                         Our Leadership
