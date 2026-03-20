@@ -18,16 +18,16 @@ const Navbar = () => {
         <nav className="bg-white shadow-sm fixed w-full z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-20">
-                    <span>
-                        <Image
-                            src="/images/MAD Electronics.jpg"
-                            alt="Logo Image"
-                            width={140}
-                            height={140}
-                        />
-                    </span>
                     <div className="flex items-center">
                         <Link href="/" className="flex-shrink-0">
+                            <span>
+                            <Image
+                                src="/images/MAD Electronics.jpg"
+                                alt="Logo Image"
+                                width={140}
+                                height={140}
+                            />
+                            </span>
                         </Link>
                     </div>
 
@@ -37,7 +37,7 @@ const Navbar = () => {
                             <Link
                                 key={item.href}
                                 href={item.href}
-                                className="text-gray-700 hover:text-red-700 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                                className="text-gray-700 hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium transition-colors"
                             >
                                 {item.label}
                             </Link>
@@ -68,7 +68,7 @@ const Navbar = () => {
                             <Link
                                 key={item.href}
                                 href={item.href}
-                                className="text-gray-700 hover:text-red-700 block px-3 py-2 rounded-md text-base font-medium"
+                                className="text-gray-700 hover:text-green-500 block px-3 py-2 rounded-md text-base font-medium"
                                 onClick={() => setIsOpen(false)}
                             >
                                 {item.label}

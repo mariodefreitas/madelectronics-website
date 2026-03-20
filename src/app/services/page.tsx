@@ -89,13 +89,13 @@ export default function ServicesPage() {
                   </div>
 
                   <div className="bg-red-50 p-6 rounded-lg">
-                    <h3 className="text-xl font-semibold mb-4 text-red-700">
+                    <h3 className="text-xl font-semibold mb-4 text-green-500">
                       Key Features
                     </h3>
                     <ul className="space-y-4">
                       {service.features.map((feature, idx) => (
                         <li key={idx} className="flex items-start gap-3">
-                          <CheckCircle2 className="w-6 h-6 text-red-700 flex-shrink-0 mt-0.5" />
+                          <CheckCircle2 className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
                           <span className="text-gray-700">{feature}</span>
                         </li>
                       ))}
@@ -117,7 +117,7 @@ export default function ServicesPage() {
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="bg-white hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
-                <h3 className="text-xl font-semibold mb-4 text-red-700">
+                <h3 className="text-xl font-semibold mb-4 text-green-500">
                   Template Benefit 1
                 </h3>
                 <p className="text-gray-600">
@@ -128,7 +128,7 @@ export default function ServicesPage() {
             </Card>
             <Card className="bg-white hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
-                <h3 className="text-xl font-semibold mb-4 text-red-700">
+                <h3 className="text-xl font-semibold mb-4 text-green-500">
                   Template Benefit 2
                 </h3>
                 <p className="text-gray-600">
@@ -139,7 +139,7 @@ export default function ServicesPage() {
             </Card>
             <Card className="bg-white hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
-                <h3 className="text-xl font-semibold mb-4 text-red-700">
+                <h3 className="text-xl font-semibold mb-4 text-green-500">
                   Template Benefit 3
                 </h3>
                 <p className="text-gray-600">

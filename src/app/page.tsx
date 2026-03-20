@@ -74,9 +74,9 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="p-6 bg-red-50 rounded-lg hover:shadow-lg transition-all">
                 <div className="flex justify-center mb-6">
-                  <Cpu className="w-12 h-12 text-red-700" />
+                  <Cpu className="w-12 h-12 text-green-500" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4 text-red-700">
+                <h3 className="text-xl font-semibold mb-4 text-green-500">
                   Template Feature 1
                 </h3>
                 <p className="text-gray-600">
@@ -86,9 +86,9 @@ export default function Home() {
               </div>
               <div className="p-6 bg-red-50 rounded-lg hover:shadow-lg transition-all">
                 <div className="flex justify-center mb-6">
-                  <Users className="w-12 h-12 text-red-700" />
+                  <Users className="w-12 h-12 text-green-500" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4 text-red-700">
+                <h3 className="text-xl font-semibold mb-4 text-green-500">
                   Template Feature 2
                 </h3>
                 <p className="text-gray-600">
@@ -98,9 +98,9 @@ export default function Home() {
               </div>
               <div className="p-6 bg-red-50 rounded-lg hover:shadow-lg transition-all">
                 <div className="flex justify-center mb-6">
-                  <Heart className="w-12 h-12 text-red-700" />
+                  <Heart className="w-12 h-12 text-green-500" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4 text-red-700">
+                <h3 className="text-xl font-semibold mb-4 text-green-500">
                   Template Feature 3
                 </h3>
                 <p className="text-gray-600">

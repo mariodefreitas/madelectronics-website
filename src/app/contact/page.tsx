@@ -128,13 +128,13 @@ export default function ContactPage() {
                                 <CardContent className="pt-6">
                                     <div className="space-y-4">
                                         <div>
-                                            <h3 className="text-lg font-semibold text-red-700 mb-2">
+                                            <h3 className="text-lg font-semibold text-green-500 mb-2">
                                                 Email
                                             </h3>
                                             <p className="text-gray-600">info@madelectronics.com</p>
                                         </div>
                                         <div>
-                                            <h3 className="text-lg font-semibold text-red-700 mb-2">
+                                            <h3 className="text-lg font-semibold text-green-500 mb-2">
                                                 Office Hours
                                             </h3>
                                             <p className="text-gray-600">
@@ -142,7 +142,7 @@ export default function ContactPage() {
                                             </p>
                                         </div>
                                         <div>
-                                            <h3 className="text-lg font-semibold text-red-700 mb-2">
+                                            <h3 className="text-lg font-semibold text-green-500 mb-2">
                                                 Location
                                             </h3>
                                             <p className="text-gray-600">Solihull and Surrounding Areas</p>

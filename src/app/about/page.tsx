@@ -109,7 +109,7 @@ export default function AboutPage() {
                                             <h3 className="text-xl font-bold text-gray-800 mb-2">
                                                 {member.name}
                                             </h3>
-                                            <p className="text-red-700 mb-4">{member.role}</p>
+                                            <p className="text-green-500 mb-4">{member.role}</p>
                                             <p className="text-gray-600">{member.bio}</p>
                                         </div>
                                     </div>
@@ -130,7 +130,7 @@ export default function AboutPage() {
                         {values.map((value, index) => (
                             <Card key={index} className="hover:shadow-lg transition-shadow">
                                 <CardContent className="pt-6">
-                                    <h3 className="text-xl font-semibold mb-4 text-red-700">
+                                    <h3 className="text-xl font-semibold mb-4 text-green-500">
                                         {value.title}
                                     </h3>
                                     <p className="text-gray-600">{value.description}</p>
