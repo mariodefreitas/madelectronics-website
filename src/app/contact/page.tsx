@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 
 
 export default function ContactPage() {
@@ -20,16 +20,16 @@ export default function ContactPage() {
         setFormData({ name: "", email: "", message: "" });
 
         emailjs
-            .sendForm('service_0e7y6uh', 'template_cialp4p', formData, {
-                publicKey: 'Puy0bUNBW9HbYulI4',
+            .sendForm("service_0e7y6uh", "template_cialp4p", formData, {
+                publicKey: "Puy0bUNBW9HbYulI4",
             })
             .then(
                 () => {
-                    console.log('SUCCESS!');
+                    console.log("SUCCESS!");
                     alert("Thank you for your message. We will get back to you soon!");
                 },
                 (error) => {
-                    console.log('FAILED...', error.text);
+                    console.log("FAILED...", error.text);
                 },
             );
         };
