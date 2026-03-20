@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\public",
+    "\\public\\images",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\about",
+    "\\src\\app\\contact",
+    "\\src\\components",
+    "\\src\\components\\layout",
+    "\\src\\components\\ui"
+  ],
+  "SelectedNode": "\\public\\images",
+  "PreviewInSolutionExplorer": false
+}
