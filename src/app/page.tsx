@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <div className="w-full">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-green-400 via-orange-500 to-red-700 text-white">
+      <section className="bg-gradient-to-r from-orange-400 via-orange-500 to-red-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
@@ -47,7 +47,7 @@ export default function Home() {
                 business pitch or value proposition.
               </p>
               <Link href="/services">
-                <Button className="bg-white text-red-700 hover:bg-gray-100">
+                <Button className="bg-white text-green-500 hover:bg-gray-100">
                   Template Button
                 </Button>
               </Link>
@@ -65,7 +65,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-          <section className="bg-gradient-to-r from-green-400 via-orange-500 to-red-700  text-white">
+          <section className="bg-gradient-to-r from-orange-400 via-orange-500 to-red-700  text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
@@ -110,7 +110,7 @@ export default function Home() {
               </div>
             </div>
             <Link href="/about" className="mt-8 inline-block">
-              <Button className="bg-red-700 text-white hover:bg-red-800">
+              <Button className="bg-green-500 text-white hover:bg-green-700">
                 Template About Button
               </Button>
             </Link>
@@ -161,7 +161,7 @@ export default function Home() {
             contact message.
           </p>
           <Link href="/contact">
-            <Button className="bg-red-700 text-white hover:bg-red-800">
+            <Button className="bg-green-500 text-white hover:bg-green-700">
               Template Contact Button
             </Button>
           </Link>

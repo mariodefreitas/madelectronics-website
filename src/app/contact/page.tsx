@@ -29,7 +29,7 @@ export default function ContactPage() {
     return (
         <div className="min-h-screen bg-white">
             {/* Hero Section */}
-            <div className="bg-gradient-to-r from-green-400 via-orange-500 to-red-700 text-white py-20">
+            <div className="bg-gradient-to-r from-orange-400 via-orange-500 to-red-700 text-white py-20">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h1 className="text-4xl font-bold mb-6">Contact Us</h1>
                     <p className="text-xl max-w-3xl">
@@ -104,7 +104,7 @@ export default function ContactPage() {
                                     </div>
                                     <Button
                                         type="submit"
-                                        className="w-full bg-red-700 hover:bg-red-800 text-white transition-colors"
+                                        className="w-full bg-green-500 hover:bg-green-700 text-white transition-colors"
                                     >
                                         Send Message
                                     </Button>
@@ -145,7 +145,7 @@ export default function ContactPage() {
                                             <h3 className="text-lg font-semibold text-red-700 mb-2">
                                                 Location
                                             </h3>
-                                            <p className="text-gray-600">Solihull and Surrounding areas</p>
+                                            <p className="text-gray-600">Solihull and Surrounding Areas</p>
                                         </div>
                                     </div>
                                 </CardContent>
