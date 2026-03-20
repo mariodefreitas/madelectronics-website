@@ -24,7 +24,7 @@ export default function Home() {
       image: "/images/service3.jpg",
     },
     {
-      title: "Template Service 4",
+      title: "Console Repair",
       description:
         "This is a template service description. Replace this text with your actual service details.",
       image: "/images/service4.jpg",
@@ -47,7 +47,7 @@ export default function Home() {
                 business pitch or value proposition.
               </p>
               <Link href="/services">
-                <Button className="bg-green-500 text-white hover:bg-gray-100">
+                <Button className="bg-green-500 text-white hover:bg-green-700">
                   Our Services
                 </Button>
               </Link>

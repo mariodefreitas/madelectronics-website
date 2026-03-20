@@ -11,7 +11,7 @@ const Navbar = () => {
     const navItems = [
         { label: "Our Services", href: "/services", className: "bg- white text-gray-700 hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium transition-colors" },
         { label: "About Us", href: "/about", className: "bg- white text-gray-700 hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium transition-colors" },
-        { label: "Fix My Device", href: "/contact", className: "bg-green-500 text-gray-700 hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium transition-colors" },
+        { label: "Fix My Device", href: "/contact", className: "bg-green-500 text-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors" },
     ];
 
     return (

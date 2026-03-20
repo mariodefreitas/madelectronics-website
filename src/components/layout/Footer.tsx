@@ -19,7 +19,7 @@ const Footer = () => {
                 />
             </span>
             <p className="text-sm text-gray-300 py-6">
-              A brief description of your company can go here.
+              For all your Electonic Repairs.
             </p>
           </div>
           <div>
@@ -30,7 +30,7 @@ const Footer = () => {
                   href="/services"
                   className="text-sm text-gray-300 hover:text-green-500"
                 >
-                  Services 1
+                  Laptop Repair
                 </Link>
               </li>
               <li>
@@ -38,7 +38,7 @@ const Footer = () => {
                   href="/services"
                   className="text-sm text-gray-300 hover:text-green-500"
                 >
-                  Services 2
+                  Smart Phone Repair
                 </Link>
               </li>
               <li>
@@ -46,8 +46,16 @@ const Footer = () => {
                   href="/services"
                   className="text-sm text-gray-300 hover:text-green-500"
                 >
-                  Services 3
+                  Tablets Repair
                 </Link>
+              </li>
+              <li>
+                  <Link
+                    href="/services"
+                    className="text-sm text-gray-300 hover:text-green-500"
+                  >
+                   Console Repair
+                  </Link>
               </li>
             </ul>
           </div>
@@ -75,13 +83,13 @@ const Footer = () => {
                   href="/contact"
                   className="text-sm text-gray-300 hover:text-green-500"
                 >
-                  Contact
+                  Fix My Device
                 </Link>
               </li>
             </ul>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contact</h3>
+            <h3 className="text-lg font-semibold mb-4">Fix My Device</h3>
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-sm text-gray-300">
                 <Mail size={18} className="text-green-500" />
@@ -89,7 +97,7 @@ const Footer = () => {
               </li>
                 {/*<li className="flex items-center gap-2 text-sm text-gray-300">
                 <Phone size={18} className="text-green-500" />
-                <span>+44 741 519 0809</span>
+                <span>+44 444 444 4444</span>
               </li>*/}
               <li className="flex items-center gap-2 text-sm text-gray-300">
                 <MapPin size={18} className="text-green-500" />
