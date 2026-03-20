@@ -47,7 +47,7 @@ export default function Home() {
                 business pitch or value proposition.
               </p>
               <Link href="/services">
-                <Button className="bg-white text-green-500 hover:bg-gray-100">
+                <Button className="bg-green-500 text-white hover:bg-gray-100">
                   Template Button
                 </Button>
               </Link>

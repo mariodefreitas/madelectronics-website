@@ -23,8 +23,8 @@ const Navbar = () => {
                         <Image
                             src="/images/MAD Electronics.jpg"
                             alt="Logo Image"
-                            width={140}
-                            height={140}
+                            width={150}
+                            height={150}
                         />
                         </span>
                     </Link>
