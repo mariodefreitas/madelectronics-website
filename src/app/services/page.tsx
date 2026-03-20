@@ -31,7 +31,7 @@ export default function ServicesPage() {
       ],
     },
     {
-      title: "Tablet Repair",
+      title: "Tablet Repair6",
       description:
         "This is a template service description. Explain your service main features and benefits here. Focus on what makes this service unique and valuable to your customers.",
       image: "/images/service3.jpg",
@@ -47,7 +47,7 @@ export default function ServicesPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-orange-400 via-orange-500 to-red-700 text-white py-40">
+      <div className="bg-gradient-to-r from-orange-400 via-orange-500 to-red-700 text-white py-36">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold mb-6">Our Services</h1>
           <p className="text-xl max-w-3xl">
