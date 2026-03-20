@@ -19,7 +19,7 @@ const Footer = () => {
                 />
             </span>
             <p className="text-sm text-gray-300 py-6">
-              For all your Electonic Repairs.
+              For all your Electonic Devices Repairs.
             </p>
           </div>
           <div>
@@ -30,7 +30,7 @@ const Footer = () => {
                   href="/services"
                   className="text-sm text-gray-300 hover:text-green-500"
                 >
-                  Laptop Repair
+                  Laptops
                 </Link>
               </li>
               <li>
@@ -38,7 +38,7 @@ const Footer = () => {
                   href="/services"
                   className="text-sm text-gray-300 hover:text-green-500"
                 >
-                  Smart Phone Repair
+                  Smart Phones
                 </Link>
               </li>
               <li>
@@ -46,7 +46,7 @@ const Footer = () => {
                   href="/services"
                   className="text-sm text-gray-300 hover:text-green-500"
                 >
-                  Tablets Repair
+                  Tablets
                 </Link>
               </li>
               <li>
@@ -54,7 +54,7 @@ const Footer = () => {
                     href="/services"
                     className="text-sm text-gray-300 hover:text-green-500"
                   >
-                   Console Repair
+                   Consoles
                   </Link>
               </li>
             </ul>
@@ -89,7 +89,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-4">Fix My Device</h3>
+            <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-sm text-gray-300">
                 <Mail size={18} className="text-green-500" />

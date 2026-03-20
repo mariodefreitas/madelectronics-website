@@ -6,25 +6,25 @@ import { Cpu, Users, Heart } from "lucide-react";
 export default function Home() {
   const offers = [
     {
-      title: "Laptop Repair",
+      title: "Laptops",
       description:
         "This is a template service description. Replace this text with your actual service details.",
       image: "/images/service1.jpg",
     },
     {
-      title: "Smart Phone Repair",
+      title: "Smart Phones",
       description:
         "This is a template service description. Replace this text with your actual service details.",
       image: "/images/service2.jpg",
     },
     {
-      title: "Tablets Repair",
+      title: "Tablets",
       description:
         "This is a template service description. Replace this text with your actual service details.",
       image: "/images/service3.jpg",
     },
     {
-      title: "Console Repair",
+      title: "Consoles",
       description:
         "This is a template service description. Replace this text with your actual service details.",
       image: "/images/service4.jpg",
@@ -110,7 +110,7 @@ export default function Home() {
               </div>
             </div>
             <Link href="/about" className="mt-8 inline-block">
-              <Button className="bg-green-500 text-white hover:bg-green-700">
+              <Button className="bg-green-500 text-white hover:bg-green-700 py-6">
                 About Us
               </Button>
             </Link>
