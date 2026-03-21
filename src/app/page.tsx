@@ -109,7 +109,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <Link href="/about" className="mb-4 inline-block">
+            <Link href="/about" className="mb-4 mt-8 inline-block">
               <Button className="bg-green-500 text-white hover:bg-green-700">
                 About Us
               </Button>
