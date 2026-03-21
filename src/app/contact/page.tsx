@@ -7,6 +7,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import emailjs from "@emailjs/browser";
 
 
+
+
 export default function ContactPage() {
     const [formData, setFormData] = useState({
         name: "",
@@ -21,7 +23,7 @@ export default function ContactPage() {
         
 
         emailjs
-            .sendForm('service_0e7y6uh', 'template_cialp4p', formData, {
+            .send('service_0e7y6uh', 'template_cialp4p', formData, {
                 publicKey: 'Puy0bUNBW9HbYulI4',
             })
             .then(
