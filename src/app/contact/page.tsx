@@ -20,16 +20,16 @@ export default function ContactPage() {
         setFormData({ name: "", email: "", message: "" });
 
         emailjs
-            .sendForm("service_0e7y6uh", "template_cialp4p", formData, {
-                publicKey: "Puy0bUNBW9HbYulI4",
+            .sendForm('service_0e7y6uh', 'template_cialp4p', formData, {
+                publicKey: 'Puy0bUNBW9HbYulI4',
             })
             .then(
                 () => {
-                    console.log("SUCCESS!");
+                    console.log('SUCCESS!');
                     alert("Thank you for your message. We will get back to you soon!");
                 },
                 (error) => {
-                    console.log("FAILED...", error.text);
+                    console.log('FAILED...', error.text);
                 },
             );
         };
