@@ -20,7 +20,7 @@ export default function ContactPage() {
         setFormData({ name: "", email: "", message: "" });
 
         emailjs
-            .sendForm('service_0e7y6uh', 'template_cialp4p', formData, {
+            .sendForm('service_0e7y6uh', 'template_cialp4p', form.current, {
                 publicKey: 'Puy0bUNBW9HbYulI4',
             })
             .then(
