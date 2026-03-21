@@ -17,15 +17,16 @@ export default function ContactPage() {
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         console.log("Form submitted:", formData);
+        setFormData({ name: "", email: "", message: "" });
         
 
         emailjs
-            .sendForm('service_0e7y6uh', 'template_cialp4p', useState, {
+            .sendForm('service_0e7y6uh', 'template_cialp4p', formData, {
                 publicKey: 'Puy0bUNBW9HbYulI4',
             })
             .then(
                 () => {
-                    setFormData({ name: "", email: "", message: "" });
+                    
                     console.log('SUCCESS!');
                     alert("Thank you for your message. We will get back to you soon!");
                 },
