@@ -54,8 +54,8 @@ export default function Home() {
             </div>
             <div className="relative h-64 md:h-96">
               <Image
-                src="/images/hero-image.jpg"
-                alt="Template Hero Image"
+                src="/images/homepage.jpg"
+                alt="Homepage Image"
                 fill
                 className="rounded-lg object-cover"
               />

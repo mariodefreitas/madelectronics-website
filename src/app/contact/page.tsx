@@ -56,7 +56,7 @@ export default function ContactPage() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h1 className="text-4xl font-bold mb-6">Fix My Device</h1>
                     <p className="text-xl max-w-3xl">
-                        In the message below please provide the device model and describe the symptoms, a short history as to what happened or went wrong.
+                        In the message below please provide the device model, describe the symptoms and provide a short history as to what happened or went wrong with the device.
                     </p>
                 </div>
             </div>
