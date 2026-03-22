@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Cpu, Users, Heart } from "lucide-react";
+//import { Cpu, Users, Heart } from "lucide-react";
 
 export default function Home() {
   const offers = [
