@@ -7,8 +7,6 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import emailjs from "@emailjs/browser";
 
 
-
-
 export default function ContactPage() {
     const [formData, setFormData] = useState({
         name: "",
@@ -62,10 +60,10 @@ export default function ContactPage() {
             </div>
 
             {/* Contact Form Section */}
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-                <div className="grid md:grid-cols-2 gap-12">
+            <div className="space-y-8">
+                <div className="relative h-64 mb-6">
                     <div>
-                        <Card className="border-red-100">
+                        <Card className="border-orange-100">
                             <CardHeader>
                                 <CardTitle className="text-2xl text-gray-800">
                                     Send Us a Message
@@ -136,9 +134,9 @@ export default function ContactPage() {
                     </div>
 
                     {/* Contact Information */}
-                    <div className="space-y-8">
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
                         <div>
-                            <div className="relative h-64 mb-6">
+                            <div className="grid md:grid-cols-2 gap-12">
                                 <Image
                                     src="/images/contact.jpg"
                                     alt="Contact Us"
@@ -146,7 +144,7 @@ export default function ContactPage() {
                                     className="rounded-lg object-cover"
                                 />
                             </div>
-                            <Card className="border-red-100">
+                            <Card className="border-orange-100">
                                 <CardContent className="pt-6">
                                     <div className="space-y-4">
                                         <div>
