@@ -60,9 +60,48 @@ export default function ContactPage() {
             </div>
 
             {/* Contact Form Section */}
-            <div className="space-y-8">
-                <div className="relative h-64 mb-6">
-                    <div>
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+                <div className="grid md:grid-cols-2 gap-12">
+                    {/* Contact Information */}
+                    <div className="space-y-8">
+                        <div>
+                            <div className="relative h-64 mb-6">
+                                <Image
+                                    src="/images/contact.jpg"
+                                    alt="Contact Us"
+                                    fill
+                                    className="rounded-lg object-cover"
+                                />
+                            </div>
+                            <Card className="border-orange-100">
+                                <CardContent className="pt-6">
+                                    <div className="space-y-4">
+                                        <div>
+                                            <h3 className="text-lg font-semibold text-green-500 mb-2">
+                                                Email
+                                            </h3>
+                                            <p className="text-gray-600">info@madelectronics.com</p>
+                                        </div>
+                                        <div>
+                                            <h3 className="text-lg font-semibold text-green-500 mb-2">
+                                                Office Hours
+                                            </h3>
+                                            <p className="text-gray-600">
+                                                Monday - Friday: 8:00 AM - 5:00 PM
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <h3 className="text-lg font-semibold text-green-500 mb-2">
+                                                Location
+                                            </h3>
+                                            <p className="text-gray-600">Solihull and Surrounding Areas</p>
+                                        </div>
+                                    </div>
+                                </CardContent>
+                            </Card>
+                        </div>
+                    </div>
+					<div>
                         <Card className="border-orange-100">
                             <CardHeader>
                                 <CardTitle className="text-2xl text-gray-800">
@@ -131,46 +170,6 @@ export default function ContactPage() {
                                 </form>
                             </CardContent>
                         </Card>
-                    </div>
-
-                    {/* Contact Information */}
-                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-                        <div>
-                            <div className="grid md:grid-cols-2 gap-12">
-                                <Image
-                                    src="/images/contact.jpg"
-                                    alt="Contact Us"
-                                    fill
-                                    className="rounded-lg object-cover"
-                                />
-                            </div>
-                            <Card className="border-orange-100">
-                                <CardContent className="pt-6">
-                                    <div className="space-y-4">
-                                        <div>
-                                            <h3 className="text-lg font-semibold text-green-500 mb-2">
-                                                Email
-                                            </h3>
-                                            <p className="text-gray-600">info@madelectronics.com</p>
-                                        </div>
-                                        <div>
-                                            <h3 className="text-lg font-semibold text-green-500 mb-2">
-                                                Office Hours
-                                            </h3>
-                                            <p className="text-gray-600">
-                                                Monday - Friday: 8:00 AM - 5:00 PM
-                                            </p>
-                                        </div>
-                                        <div>
-                                            <h3 className="text-lg font-semibold text-green-500 mb-2">
-                                                Location
-                                            </h3>
-                                            <p className="text-gray-600">Solihull and Surrounding Areas</p>
-                                        </div>
-                                    </div>
-                                </CardContent>
-                            </Card>
-                        </div>
                     </div>
                 </div>
             </div>
