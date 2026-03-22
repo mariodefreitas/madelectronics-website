@@ -7,7 +7,7 @@ import { CheckCircle2 } from "lucide-react";
 export default function ServicesPage() {
   const services = [
     {
-      title: "Laptop Repairs",
+      title: "Laptop Repair",
       description:
         "This is a template service description. Explain your service main features and benefits here. Focus on what makes this service unique and valuable to your customers.",
       image: "/images/service1.jpg",
@@ -19,7 +19,7 @@ export default function ServicesPage() {
       ],
     },
     {
-      title: "Smart Phone Repairs",
+      title: "Smart Phone and Tablet Repairs",
       description:
         "This is a template service description. Explain your service main features and benefits here. Focus on what makes this service unique and valuable to your customers.",
       image: "/images/service2.jpg",
@@ -31,7 +31,7 @@ export default function ServicesPage() {
       ],
     },
     {
-      title: "Tablet Repairs",
+      title: "Console Repair",
       description:
         "This is a template service description. Explain your service main features and benefits here. Focus on what makes this service unique and valuable to your customers.",
       image: "/images/service3.jpg",
@@ -43,7 +43,7 @@ export default function ServicesPage() {
       ],
     },
     {
-      title: "Console Repairs",
+      title: "Micro Soldering",
       description:
         "This is a template service description. Explain your service main features and benefits here. Focus on what makes this service unique and valuable to your customers.",
       image: "/images/service4.jpg",
