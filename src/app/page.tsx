@@ -12,19 +12,19 @@ export default function Home() {
       image: "/images/service1.jpg",
     },
     {
-      title: "Smart Phones",
+      title: "Smart Phones & Tablets",
       description:
         "This is a template service description. Replace this text with your actual service details.",
       image: "/images/service2.jpg",
     },
     {
-      title: "Tablets",
+      title: "Consoles",
       description:
         "This is a template service description. Replace this text with your actual service details.",
       image: "/images/service3.jpg",
     },
     {
-      title: "Consoles",
+      title: "Micro Soldering",
       description:
         "This is a template service description. Replace this text with your actual service details.",
       image: "/images/service4.jpg",
@@ -64,7 +64,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* About Section */}
+      {/* About Section 
           <section className="bg-gradient-to-r from-orange-400 via-orange-500 to-red-700  text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -109,6 +109,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
+            */}
             <Link href="/about" className="mb-4 mt-8 inline-block">
               <Button className="bg-green-500 text-white hover:bg-green-700">
                 About Us
