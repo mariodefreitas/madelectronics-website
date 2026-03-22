@@ -86,7 +86,7 @@ export default function ServicesPage() {
                   <Image
                     src={service.image}
                     alt={service.title}
-                    stretch
+                    fill
                     className="rounded-lg object-cover"
                   />
                 </div>
