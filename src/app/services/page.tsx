@@ -10,7 +10,7 @@ export default function ServicesPage() {
       title: "Laptop Repair",
       description:
         "This is a template service description. Explain your service main features and benefits here. Focus on what makes this service unique and valuable to your customers.",
-      image: "/images/service1.jpg",
+      image: "/images/Service1 (2).jpg",
       features: [
         "Template feature description 1",
         "Template feature description 2",
@@ -22,7 +22,7 @@ export default function ServicesPage() {
       title: "Smart Phone and Tablet Repairs",
       description:
         "This is a template service description. Explain your service main features and benefits here. Focus on what makes this service unique and valuable to your customers.",
-      image: "/images/service2.jpg",
+      image: "/images/Service2 (2).jpg",
       features: [
         "Template feature description 1",
         "Template feature description 2",
@@ -34,7 +34,7 @@ export default function ServicesPage() {
       title: "Console Repair",
       description:
         "This is a template service description. Explain your service main features and benefits here. Focus on what makes this service unique and valuable to your customers.",
-      image: "/images/service3.jpg",
+      image: "/images/Service3 (2).jpg",
       features: [
         "Template feature description 1",
         "Template feature description 2",
@@ -46,7 +46,7 @@ export default function ServicesPage() {
       title: "Micro Soldering",
       description:
         "This is a template service description. Explain your service main features and benefits here. Focus on what makes this service unique and valuable to your customers.",
-      image: "/images/service4.jpg",
+      image: "/images/Service4 (2).jpg",
       features: [
         "Template feature description 1",
         "Template feature description 2",
