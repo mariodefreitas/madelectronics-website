@@ -46,7 +46,7 @@ export default function ServicesPage() {
       title: "Micro Soldering",
       description:
         "This is a template service description. Explain your service main features and benefits here. Focus on what makes this service unique and valuable to your customers.",
-      image: "/images/Service4 (2).jpg",
+      image: "/images/Service4 (3).jpg",
       features: [
         "Template feature description 1",
         "Template feature description 2",
