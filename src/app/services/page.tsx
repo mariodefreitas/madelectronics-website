@@ -34,7 +34,7 @@ export default function ServicesPage() {
       title: "Console Repair",
       description:
         "This is a template service description. Explain your service main features and benefits here. Focus on what makes this service unique and valuable to your customers.",
-      image: "/images/Service3 (2).jpg",
+      image: "/images/service3.jpg",
       features: [
         "Template feature description 1",
         "Template feature description 2",
