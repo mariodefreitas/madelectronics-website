@@ -71,7 +71,7 @@ export default function ContactPage() {
                                     className="rounded-lg object-cover"
                                 />
                             </div>
-                            <Card className="border-orange-300">
+                            <Card className="border-orange-400">
                                 <CardContent className="pt-6">
                                     <div className="space-y-4">
                                         <div>
@@ -100,7 +100,7 @@ export default function ContactPage() {
                         </div>
                     </div>
 					<div>
-                        <Card className="border-orange-300">
+                        <Card className="border-orange-400">
                             <CardHeader>
                                 <CardTitle className="text-2xl text-gray-800">
                                     Send Us a Message
