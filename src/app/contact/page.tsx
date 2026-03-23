@@ -4,9 +4,13 @@ import { useState } from 'react';
 export default function MySelect() {
   const [selected, setSelected] = useState("");
 
-  const handleChange = (e) => {
-    setSelected(e.target.value);
-  };
+  const handleChange = (
+        e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    ) => {
+        const { name, value } = e.target;
+        setSelected((prev) => ({ ...prev, [name]: value }));
+    };
+
 
   return (
     <div>
