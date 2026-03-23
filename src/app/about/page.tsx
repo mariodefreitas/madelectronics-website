@@ -120,7 +120,24 @@ export default function AboutPage() {
                 </div>
             </div>
 
-            {/* Company Values */}
+            {/* Contact Section */}
+            <section className="py-20 bg-white">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                    <h2 className="text-3xl font-bold text-gray-800 mb-6">
+                        Lets Get it Fixed
+                    </h2>
+                    <p className="text-lg text-gray-600 mb-8">
+                        Have a Device that needs a Repair. Get in touch.
+                    </p>
+                    <Link href="/contact">
+                        <Button className="bg-green-500 text-white hover:bg-green-700 by-6">
+                            Fix My Device
+                        </Button>
+                    </Link>
+                </div>
+            </section>
+
+            {/* Company Values 
             <div className="py-16">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
@@ -139,7 +156,7 @@ export default function AboutPage() {
                         ))}
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }
