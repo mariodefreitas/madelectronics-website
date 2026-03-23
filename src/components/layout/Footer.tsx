@@ -19,7 +19,7 @@ const Footer = () => {
                     className="rounded-lg"
                 />
             </span>
-            <p className="text-lg font-semibold mb-4">
+            <p className="text-lg mb-4">
               Lets Get it Fixed!
             </p>
           </div>
