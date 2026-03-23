@@ -3,8 +3,9 @@ import { useState } from 'react';
 
 export default function MySelect() {
   const [selected, setSelected] = useState("");
-
-  const handleChange = (e) => {
+      const handleChange = (
+        e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    ) => {
     setSelected(e.target.value);
   };
 
