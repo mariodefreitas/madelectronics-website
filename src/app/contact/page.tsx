@@ -13,7 +13,7 @@ export default function MySelect() {
 		<label htmlFor="options">Choose your device: </label>
 		<select 
 			id="options" 
-			value={formData.device} 
+			value={selected} 
 			onChange={handleChange}
 			className="border p-2 rounded"
 		>
