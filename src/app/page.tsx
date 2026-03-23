@@ -43,7 +43,7 @@ export default function Home() {
               </h1>
               <p className="text-lg mb-8">
                 We specialise in precision, component‑level electronic repair — restoring performance, reliability, and lifespan where others simply replace.
-                Our team combines advanced diagnostic capability with deep engineering expertise to identify faults at the micro‑component level, delivering cost‑effective, sustainable, and high‑quality repair solutions across a wide range of electronic systems.
+                Our team combines advanced diagnostic capability with deep engineering expertise to identify faults at the micro‑component level, delivering cost‑effective, sustainable, and high‑quality repair solutions across a wide range of electronic devices and systems.
 
               </p>
               <Link href="/services">

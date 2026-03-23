@@ -19,8 +19,8 @@ const Footer = () => {
                     className="rounded-lg"
                 />
             </span>
-            <p className="text-lg mb-4">
-              Lets Get it Fixed!
+            <p className="text-sm text-gray-300 py-6">
+              Lets Get it Fixed
             </p>
           </div>
           <div>
