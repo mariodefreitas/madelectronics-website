@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, ChangeEvent } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -160,8 +160,8 @@ export default function ContactPage() {
 			                                <option value="option1">Laptop</option>
 			                                <option value="option2">Smart Phone</option>
 			                                <option value="option3">Tablet</option>
-			                                <option value="option3">Game Console</option>
-			                                <option value="option3">Other</option>
+			                                <option value="option4">Game Console</option>
+			                                <option value="option5">Other</option>
 	                                  </select>
 	                                </div>
                                     <div>
