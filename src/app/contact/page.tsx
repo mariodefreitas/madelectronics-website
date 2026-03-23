@@ -22,7 +22,7 @@ export default function ContactPage() {
         
 
         emailjs
-            .send('service_0e7y6uh', 'template_cialp4p', formData, {
+            .send('service0e7y6uh', 'template_cialp4p', formData, {
                 publicKey: 'Puy0bUNBW9HbYulI4', 
             })
             .then(
@@ -160,11 +160,11 @@ export default function ContactPage() {
 			                                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
 		                                >
 			                                <option value="" disabled>Select one...</option>
-			                                <option value="option1">Laptop</option>
-			                                <option value="option2">Smart Phone</option>
-			                                <option value="option3">Tablet</option>
-			                                <option value="option4">Game Console</option>
-			                                <option value="option5">Other</option>
+                                            <option value="Laptop">Laptop</option>
+                                            <option value="Smart Phone">Smart Phone</option>
+                                            <option value="Tablet">Tablet</option>
+                                            <option value="Game Console">Game Console</option>
+			                                <option value="Other">Other</option>
 	                                  </select>
 	                                </div>
                                     <div>
