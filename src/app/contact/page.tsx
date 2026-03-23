@@ -38,9 +38,6 @@ export default function ContactPage() {
         };
 
 
-
-    
-
     const handleChange = (
         e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
     ) => {
@@ -148,7 +145,12 @@ export default function ContactPage() {
                                         />
                                     </div>
                                     <div>
-		                                <label htmlFor="options">Choose your device: </label>
+		                                <label 
+                                            htmlFor="options"
+                                            className="block text-sm font-medium text-gray-700 mb-1"
+                                        >
+                                         Type of Device: 
+                                        </label>
 		                                <select 
 			                                id="device" 
                                             name="device"
