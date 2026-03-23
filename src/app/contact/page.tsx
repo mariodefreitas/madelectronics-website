@@ -1,24 +1,32 @@
 "use client";
+import { useState, ChangeEvent } from 'react';
 
-import { useState, ChangeEvent } from 'react'; // 1. Import ChangeEvent
+export default function MySelect() {
+  const [selected, setSelected] = useState("");
 
-export default function MySelectField() {
-  const [selectedOption, setSelectedOption] = useState<string>("");
-
-  // 2. Add the type to the event parameter
-  const handleSelectChange = (event: ChangeEvent<HTMLSelectElement>) => {
-    setSelectedOption(event.target.value);
+  const handleChange = (e: ChangeEvent<HTMLSelectElement>) => {
+    setSelected(e.target.value);
   };
 
   return (
-    <select
-      value={selectedOption}
-      onChange={handleSelectChange}
-      className="border p-2 rounded"
-    >
-      <option value="" disabled>Select one...</option>
-      <option value="apple">Apple</option>
-      <option value="banana">Banana</option>
-    </select>
+    <div>
+		<label htmlFor="options">Choose your device: </label>
+		<select 
+			id="options" 
+			value={formData.device} 
+			onChange={handleChange}
+			className="border p-2 rounded"
+		>
+			<option value="" disabled>Select one...</option>
+			<option value="option1">Laptop</option>
+			<option value="option2">Smart Phone</option>
+			<option value="option3">Tablet</option>
+			<option value="option3">Game Console</option>
+			<option value="option3">Other</option>
+	  </select>
+	  <p>Selected: {selected}</p>
+	</div>
   );
 }
+
+
