@@ -74,7 +74,7 @@ export default function AboutPage() {
                     </div>
                     <div className="relative h-96">
                         <Image
-                            src="/images/homepage.jpg"
+                            src="/images/aboutus.jpg"
                             alt="Template Office"
                             fill
                             className="rounded-lg object-cover"
