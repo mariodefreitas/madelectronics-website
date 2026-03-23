@@ -19,7 +19,7 @@ const Footer = () => {
                     className="rounded-lg"
                 />
             </span>
-            <h3 className="mx-auto px-4 sm:px- text-sm text-gray-300">
+            <h3 className="mx-auto px-4 sm:px- text-sm text-gray-300 py-3">
               Lets Get it Fixed
             </h3>
           </div>
