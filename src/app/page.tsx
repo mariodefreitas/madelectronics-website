@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 //import { Cpu, Users, Heart } from "lucide-react";
@@ -42,9 +42,9 @@ export default function Home() {
                 MAD Electronics
               </h1>
               <p className="text-lg mb-8">
-                This is a template hero description. Replace this text with your
-                company introduction. This area is perfect for your main
-                business pitch or value proposition.
+                We specialise in precision, component‑level electronic repair — restoring performance, reliability, and lifespan where others simply replace.
+                Our team combines advanced diagnostic capability with deep engineering expertise to identify faults at the micro‑component level, delivering cost‑effective, sustainable, and high‑quality repair solutions across a wide range of electronic systems.
+
               </p>
               <Link href="/services">
                 <Button className="bg-green-500 text-white hover:bg-green-700">

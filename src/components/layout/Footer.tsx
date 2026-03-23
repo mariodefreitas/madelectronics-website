@@ -20,7 +20,7 @@ const Footer = () => {
                 />
             </span>
             <p className="text-sm text-gray-300 py-6">
-              For all your Electonic Devices Repairs.
+              Lets Get it Fixed!
             </p>
           </div>
           <div>
