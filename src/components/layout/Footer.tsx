@@ -19,9 +19,9 @@ const Footer = () => {
                     className="rounded-lg"
                 />
             </span>
-            <p className="grid grid-cols-1 md:grid-cols-4 gap-8 text-sm text-gray-300 py-6">
-              Lets Get it Fixed
-            </p>
+            <h3 className="text-sm text-gray-300 py-6">
+              Lets Get it Fixed!
+            </h3>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Our Services</h3>
