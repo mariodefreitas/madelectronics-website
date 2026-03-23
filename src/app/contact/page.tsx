@@ -14,6 +14,15 @@ export default function ContactPage() {
         message: "",
     });
 
+export default function MySelect() {
+  const [selected, setSelected] = useState("");
+
+  const handleChange = (e) => {
+    setSelected(e.target.value);
+  });
+
+
+
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         console.log("Form submitted:", formData);
@@ -121,6 +130,7 @@ export default function ContactPage() {
                                             type="text"
                                             id="name"
                                             name="name"
+                                            placeholder="Name"
                                             value={formData.name}
                                             onChange={handleChange}
                                             required
@@ -138,11 +148,29 @@ export default function ContactPage() {
                                             type="email"
                                             id="email"
                                             name="email"
+                                            placeholder="Email"
                                             value={formData.email}
                                             onChange={handleChange}
                                             required
                                             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                                         />
+                                    </div>
+                                    <div>
+                                      <label htmlFor="options">Choose your device: </label>
+                                      <select 
+                                        id="options" 
+                                        value={selected} 
+                                        onChange={handleChange}
+                                        className="border p-2 rounded"
+                                      >
+                                        <option value="" disabled>Select one...</option>
+                                        <option value="option1">Laptop</option>
+                                        <option value="option2">Smart Phone</option>
+                                        <option value="option3">Tablet</option>
+                                        <option value="option3">Game Console</option>
+                                        <option value="option3">Other</option>
+                                      </select>
+                                      <p>Selected: {selected}</p>
                                     </div>
                                     <div>
                                         <label
@@ -154,6 +182,7 @@ export default function ContactPage() {
                                         <textarea
                                             id="message"
                                             name="message"
+                                            placeholder="Model Number, describe the fault."
                                             value={formData.message}
                                             onChange={handleChange}
                                             required
