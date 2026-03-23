@@ -1,33 +1,37 @@
 "use client";
+
 import { useState } from 'react';
 
-export default function MySelect() {
-  const [selected, setSelected] = useState("");
-      const handleChange = (
-        e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-    ) => {
-    setSelected(e.target.value);
+export default function MySelectField() {
+  const [selectedOption, setSelectedOption] = useState("");
+
+  const handleSelectChange = (event) => {
+    setSelectedOption(event.target.value);
   };
 
   return (
-    <div>
-      <label htmlFor="options">Choose an option: </label>
-      <select 
-        id="options" 
-        value={selected} 
-        onChange={handleChange}
-        className="border p-2 rounded"
+    <div className="flex flex-col gap-2 p-4">
+      <label htmlFor="fruit-select" className="font-medium text-gray-700">
+        Pick a fruit:
+      </label>
+      
+      <select
+        id="fruit-select"
+        value={selectedOption}
+        onChange={handleSelectChange}
+        className="border border-gray-300 rounded-md p-2 bg-white text-black"
       >
-		<option value="" disabled>Select one...</option>
-		<option value="option1">Laptop</option>
-		<option value="option2">Smart Phone</option>
-		<option value="option3">Tablet</option>
-		<option value="option3">Game Console</option>
-		<option value="option3">Other</option>
-	  </select>
-	  <p>Selected: {selected}</p>
-	</div>
+        <option value="" disabled>-- Please choose an option --</option>
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="orange">Orange</option>
+      </select>
+
+      {selectedOption && (
+        <p className="mt-2 text-sm text-blue-600">
+          You selected: <strong>{selectedOption}</strong>
+        </p>
+      )}
+    </div>
   );
 }
-
-
