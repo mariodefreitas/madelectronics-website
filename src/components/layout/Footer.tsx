@@ -15,7 +15,8 @@ const Footer = () => {
                     src="/images/MAD Electronics.jpg"
                     alt="Logo Image"
                     width={140}
-                    height={140}  
+                    height={140}
+                    className="rounded-lg"
                 />
             </span>
             <p className="text-sm text-gray-300 py-6">
