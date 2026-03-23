@@ -149,7 +149,7 @@ export default function ContactPage() {
                                             htmlFor="options"
                                             className="block text-sm font-medium text-gray-700 mb-1"
                                         >
-                                         Type of Device: 
+                                         Device 
                                         </label>
 		                                <select 
 			                                id="device" 
