@@ -65,7 +65,7 @@ const Footer = () => {
             <ul className="space-y-2">
                <li>
                    <Link
-                       href="/app"
+                       href="/"
                        className="text-sm text-gray-300 hover:text-green-500"
                    >
                        Home
