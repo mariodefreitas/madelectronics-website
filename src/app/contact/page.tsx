@@ -11,13 +11,13 @@ export default function ContactPage() {
     const [formData, setFormData] = useState({
         name: "",
         email: "",
-        device: "",
         message: "",
     });
+
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         console.log("Form submitted:", formData);
-        setFormData({ name: "", email: "", device: "", message: "" });
+        setFormData({ name: "", email: "", message: "" });
         
 
         emailjs
@@ -35,7 +35,12 @@ export default function ContactPage() {
                 },
             );
         };
-     const handleChange = (
+
+
+
+    
+
+    const handleChange = (
         e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
     ) => {
         const { name, value } = e.target;
@@ -140,23 +145,6 @@ export default function ContactPage() {
                                             required
                                             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                                         />
-                                    </div>
-                                    <div>
-                                        <label htmlFor="options">Choose your device: </label>
-                                        <select 
-                                            id="options" 
-                                            value={formData.device} 
-                                            onChange={handleChange}
-                                            className="border p-2 rounded"
-                                        >
-                                            <option value="" disabled>Select one...</option>
-                                            <option value="option1">Laptop</option>
-                                            <option value="option2">Smart Phone</option>
-                                            <option value="option3">Tablet</option>
-                                            <option value="option3">Game Console</option>
-                                            <option value="option3">Other</option>
-                                      </select>
-                                      <p>Selected: {selected}</p>
                                     </div>
                                     <div>
                                         <label
