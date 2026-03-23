@@ -23,7 +23,7 @@ export default function ContactPage() {
 
         emailjs
             .send('service_0e7y6uh', 'template_cialp4p', formData, {
-                publicKey: 'Puy0bUNBW9HbYulI4',
+                publicKey: 'Puy0bUNBW9HbYulI4', 
             })
             .then(
                 () => {
