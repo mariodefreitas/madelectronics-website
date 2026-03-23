@@ -20,7 +20,7 @@ export default function AboutPage() {
             image: "/images/team2.jpg",
         },
     ];
-
+    {/* }
     const values = [
         {
             title: "Template Value 1",
@@ -42,7 +42,7 @@ export default function AboutPage() {
             description:
                 "This is a template value description. Describe your company core values and principles here.",
         },
-    ];
+    ];*/}
 
     return (
         <div className="min-h-screen bg-white">
