@@ -11,22 +11,13 @@ export default function ContactPage() {
     const [formData, setFormData] = useState({
         name: "",
         email: "",
+        device: "",
         message: "",
     });
-
-export default function MySelect() {
-  const [selected, setSelected] = useState("");
-
-  const handleChange = (e) => {
-    setSelected(e.target.value);
-  });
-
-
-
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         console.log("Form submitted:", formData);
-        setFormData({ name: "", email: "", message: "" });
+        setFormData({ name: "", email: "", device: "", message: "" });
         
 
         emailjs
@@ -44,12 +35,7 @@ export default function MySelect() {
                 },
             );
         };
-
-
-
-    
-
-    const handleChange = (
+     const handleChange = (
         e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
     ) => {
         const { name, value } = e.target;
@@ -159,7 +145,7 @@ export default function MySelect() {
                                       <label htmlFor="options">Choose your device: </label>
                                       <select 
                                         id="options" 
-                                        value={selected} 
+                                        value={formData.device} 
                                         onChange={handleChange}
                                         className="border p-2 rounded"
                                       >
