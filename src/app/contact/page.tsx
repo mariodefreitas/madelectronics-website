@@ -123,7 +123,7 @@ export default function ContactPage() {
                                             value={formData.name}
                                             onChange={handleChange}
                                             required
-                                            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
+                                            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
                                         />
                                     </div>
                                     <div>
@@ -141,7 +141,7 @@ export default function ContactPage() {
                                             value={formData.email}
                                             onChange={handleChange}
                                             required
-                                            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
+                                            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
                                         />
                                     </div>
                                     <div>
@@ -156,7 +156,8 @@ export default function ContactPage() {
                                             name="device"
 			                                value={formData.device} 
 			                                onChange={handleChange}
-			                                className="border p-2 rounded"
+                                            required
+			                                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
 		                                >
 			                                <option value="" disabled>Select one...</option>
 			                                <option value="option1">Laptop</option>
@@ -181,7 +182,7 @@ export default function ContactPage() {
                                             onChange={handleChange}
                                             required
                                             rows={4}
-                                            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
+                                            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
                                         />
                                     </div>
                                     <Button
