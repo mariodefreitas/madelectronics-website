@@ -57,7 +57,8 @@ export default function AboutPage() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h1 className="text-4xl font-bold mb-6">About Us</h1>
                     <p className="text-xl max-w-3xl">
-                        We specialise in extending the operational life of electronics through precision diagnostics and component level repair — even when others declare them beyond saving.
+                        We specialise in extending the operational life of electronics through precision diagnostics
+                        and component level repair even when others declare them beyond saving.
                     </p>
                 </div>
             </div>
