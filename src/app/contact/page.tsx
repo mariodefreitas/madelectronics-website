@@ -78,7 +78,7 @@ export default function ContactPage() {
                                             <h3 className="text-lg font-semibold text-green-500 mb-2">
                                                 Email
                                             </h3>
-                                            <p className="text-gray-600">info@madelectronics.com</p>
+                                            <p className="text-gray-600">madelectronics8@gmail.com.com</p>
                                         </div>
                                         <div>
                                             <h3 className="text-lg font-semibold text-green-500 mb-2">

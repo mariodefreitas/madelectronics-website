@@ -8,15 +8,21 @@ import { Card, CardContent } from "@/components/ui/card";
 export default function AboutPage() {
     const teamMembers = [
         {
-            name: "Template Name 1",
-            role: "Template Role 1",
-            bio: "This is a template biography. You can describe the team member experience, achievements, and expertise here. Include relevant qualifications and notable contributions.",
+            name: "Mario De Freitas",
+            role: "Director",
+            bio: "You can describe the team member experience, achievements, and expertise here. Include relevant qualifications and notable contributions.",
             image: "/images/team1.jpg",
         },
         {
-            name: "Template Name 2",
-            role: "Template Role 2",
-            bio: "This is a template biography. You can describe the team member experience, achievements, and expertise here. Include relevant qualifications and notable contributions.",
+            name: "Chancelle De Freitas",
+            role: "Accountant",
+            bio: "You can describe the team member experience, achievements, and expertise here. Include relevant qualifications and notable contributions.",
+            image: "/images/team2.jpg",
+        },
+        {
+            name: "Matteo",
+            role: "Boss",
+            bio: "You can describe the team member experience, achievements, and expertise here. Include relevant qualifications and notable contributions.",
             image: "/images/team2.jpg",
         },
     ];
@@ -49,10 +55,9 @@ export default function AboutPage() {
             {/* Hero Section */}
             <div className="bg-gradient-to-r from-orange-400 via-orange-500 to-red-700 text-white py-36">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <h1 className="text-4xl font-bold mb-6">About Template</h1>
+                    <h1 className="text-4xl font-bold mb-6">About Us</h1>
                     <p className="text-xl max-w-3xl">
-                        This is a template description. Write a brief introduction about
-                        your company and its main focus areas.
+                        We give electronic devices a second wind, when others believe the storm is over...
                     </p>
                 </div>
             </div>
@@ -63,14 +68,12 @@ export default function AboutPage() {
                     <div>
                         <h2 className="text-3xl font-bold mb-6 text-gray-800">Our Story</h2>
                         <p className="text-gray-600 mb-4">
-                            This is a template company history section. Describe your company
-                            founding story, growth journey, and major milestones here. Include
+                            Describe your company founding story, growth journey, and major milestones here. Include
                             relevant details about your company development and achievements
                             over the years.
                         </p>
                         <p className="text-gray-600">
-                            This is a template paragraph about your company mission and
-                            vision. Describe what makes your company unique and what you
+                            Company mission and vision. Describe what makes your company unique and what you
                             strive to achieve for your clients and stakeholders.
                         </p>
                     </div>

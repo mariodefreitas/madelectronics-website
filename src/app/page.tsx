@@ -8,13 +8,13 @@ export default function Home() {
     {
       title: "Laptops",
       description:
-        "This is a template service description. Replace this text with your actual service details.",
+        "We repair all types of Laptops. From battery replacement to power supply compentent level repairs",
       image: "/images/service1.jpg",
     },
     {
       title: "Smart Phones & Tablets",
       description:
-        "This is a template service description. Replace this text with your actual service details.",
+        "We repair all types of Smart Phones & Tablets. From screen and battery replacement to power supply compentent level repairs ",
       image: "/images/service2.jpg",
     },
     {
