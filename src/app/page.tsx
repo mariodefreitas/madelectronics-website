@@ -8,25 +8,25 @@ export default function Home() {
     {
       title: "Laptops",
       description:
-        "We repair all types of Laptops. From battery replacement to power supply compentent level repairs",
+        "We repair all types of Windows Laptops. From screen and battery replacement to motherboard power supply component level repairs",
       image: "/images/service1.jpg",
     },
     {
       title: "Smart Phones & Tablets",
       description:
-        "We repair all types of Smart Phones & Tablets. From screen and battery replacement to power supply compentent level repairs ",
+        "We repair Samsung and Apple smart Phones & Tablets. From screen and battery replacement to motherboard power supply component level repairs ",
       image: "/images/service2.jpg",
     },
     {
       title: "Consoles",
       description:
-        "This is a template service description. Replace this text with your actual service details.",
+        "We repair Playstation and Xbox gaming Console and Controllers.",
       image: "/images/service3.jpg",
     },
     {
-      title: "Micro Soldering",
+        title: "Other Electronics",
       description:
-        "This is a template service description. Replace this text with your actual service details.",
+        "We repair other electroics devices at component level.",
       image: "/images/service4.jpg",
     },
   ];
