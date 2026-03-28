@@ -24,9 +24,9 @@ export default function Home() {
       image: "/images/service3.jpg",
     },
     {
-        title: "Other Electronics",
+      title: "Other Electronics",
       description:
-        "We repair other electroics devices at component level.",
+        "We repair other electroics devices at component PCB level.",
       image: "/images/service4.jpg",
     },
   ];
@@ -44,7 +44,6 @@ export default function Home() {
               <p className="text-lg mb-8">
                 We specialise in precision, component‑level electronic repair — restoring performance, reliability, and lifespan where others simply replace.
                 Our team combines advanced diagnostic capability with deep engineering expertise to identify faults at the micro‑component level, delivering cost‑effective, sustainable, and high‑quality repair solutions across a wide range of electronic devices and systems.
-
               </p>
               <Link href="/services">
                 <Button className="bg-green-500 text-white hover:bg-green-700">
