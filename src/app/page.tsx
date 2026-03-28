@@ -8,25 +8,25 @@ export default function Home() {
     {
       title: "Laptops",
       description:
-        "We repair all types of Windows Laptops. From screen and battery replacement to motherboard power supply component level repairs.",
+        "We repair all types of Windows Laptops. From screen and battery replacement to motherboard power supply component-level repairs.",
       image: "/images/service1.jpg",
     },
     {
       title: "Smart Phones & Tablets",
       description:
-        "We repair Samsung and Apple smart Phones & Tablets. From screen and battery replacement to motherboard power supply component level repairs.",
+        "We repair Samsung and Apple smart Phones & Tablets. From screen and battery replacement to motherboard power supply component-level repairs.",
       image: "/images/service2.jpg",
     },
     {
       title: "Consoles",
       description:
-        "We repair Playstation and Xbox gaming Console and Controllers.",
+        "We repair Playstation and Xbox gaming Consoles and Controllers.",
       image: "/images/service3.jpg",
     },
     {
       title: "Other Electronics",
       description:
-        "We repair other electroics devices at component PCB level.",
+        "We repair other electronics devices at component PCB level.",
       image: "/images/service4.jpg",
     },
   ];
