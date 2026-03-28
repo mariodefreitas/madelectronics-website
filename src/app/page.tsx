@@ -8,13 +8,13 @@ export default function Home() {
     {
       title: "Laptops",
       description:
-        "We repair all types of Windows Laptops. From screen and battery replacement to motherboard power supply component level repairs",
+        "We repair all types of Windows Laptops. From screen and battery replacement to motherboard power supply component level repairs.",
       image: "/images/service1.jpg",
     },
     {
       title: "Smart Phones & Tablets",
       description:
-        "We repair Samsung and Apple smart Phones & Tablets. From screen and battery replacement to motherboard power supply component level repairs ",
+        "We repair Samsung and Apple smart Phones & Tablets. From screen and battery replacement to motherboard power supply component level repairs.",
       image: "/images/service2.jpg",
     },
     {
