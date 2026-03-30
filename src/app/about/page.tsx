@@ -13,18 +13,12 @@ export default function AboutPage() {
             bio: "You can describe the team member experience, achievements, and expertise here. Include relevant qualifications and notable contributions.",
             image: "/images/team1.jpg",
         },
-        {
+       /* {
             name: "Chancelle De Freitas",
             role: "Accountant",
             bio: "You can describe the team member experience, achievements, and expertise here. Include relevant qualifications and notable contributions.",
             image: "/images/team2.jpg",
-        },
-        {
-            name: "Matteo",
-            role: "Boss",
-            bio: "You can describe the team member experience, achievements, and expertise here. Include relevant qualifications and notable contributions.",
-            image: "/images/team2.jpg",
-        },
+        },*/
     ];
     {/* }
     const values = [
@@ -68,14 +62,11 @@ export default function AboutPage() {
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div>
                         <h2 className="text-3xl font-bold mb-6 text-gray-800">Our Story</h2>
+                        <h3 className="text-3xl font-bold mb-6 text-gray-800">Where it all began</h3>
                         <p className="text-gray-600 mb-4">
-                            Describe your company founding story, growth journey, and major milestones here. Include
-                            relevant details about your company development and achievements
-                            over the years.
-                        </p>
-                        <p className="text-gray-600">
-                            Company mission and vision. Describe what makes your company unique and what you
-                            strive to achieve for your clients and stakeholders.
+                            An electronics engineering students bedroom back in 2013. In this picture my first workbench on a old computer stand with the Mrs PacMan main motherboard on the bench can be seen on the right hand side with some testing equipment.
+                            Then amoungst all the electronic devices I tested, repaired and leant from the most important one. Has got to be the 1980's Mrs Pacman machine. As a child I spent many hours playing it and I believe somewhere deep
+                            down in my childhood memories that machine sparked a love for electronics and a desire to understand how it all work. It was the catalyst that set me on the path to becoming an electronics engineer and eventually founding MAD Electronics.
                         </p>
                     </div>
                     <div className="relative h-96">
@@ -97,15 +88,11 @@ export default function AboutPage() {
                         />
                     </div>
                     <div>
-                        <h2 className="text-3xl font-bold mb-6 text-gray-800">Our Story</h2>
+                        <h3 className="text-3xl font-bold mb-6 text-gray-800"></h3>
                         <p className="text-gray-600 mb-4">
                             Describe your company founding story, growth journey, and major milestones here. Include
                             relevant details about your company development and achievements
                             over the years.
-                        </p>
-                        <p className="text-gray-600">
-                            Company mission and vision. Describe what makes your company unique and what you
-                            strive to achieve for your clients and stakeholders.
                         </p>
                     </div>
                 </div>
