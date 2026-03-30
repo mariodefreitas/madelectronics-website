@@ -23,7 +23,7 @@ export default function ContactPage() {
         
 
         emailjs
-            .send('service0e7y6uh', 'template_cialp4p', formData, {
+            .send('service_0e7y6uh', 'template_cialp4p', formData, {
                 publicKey: 'Puy0bUNBW9HbYulI4', 
             })
             .then(
@@ -173,7 +173,7 @@ export default function ContactPage() {
                                             htmlFor="repaired"
                                             className="block text-sm font-medium text-gray-700 mb-1"
                                         >
-                                         Previously Repaired (Device opened and worked on)? 
+                                         Previously Repaired (Device opened up and worked on)? 
                                         </label>
 		                                <select 
 			                                id="repaired" 
