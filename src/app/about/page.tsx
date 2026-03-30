@@ -57,8 +57,8 @@ export default function AboutPage() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h1 className="text-4xl font-bold mb-6">About Us</h1>
                     <p className="text-xl max-w-3xl">
-                        We specialise in extending device lifespan through engineering‑grade diagnostics and component‑level repair.
-                        Restoring what others declare beyond repair and proving that “unrepairable” is usually just unexplored.
+                        We specialise in giving technology a second life through expert diagnostics and true component‑level repair.
+                        Where others stop at “beyond repair,” we dig deeper—restoring devices that most would write off and proving that unrepairable is usually just unexplored.
                     </p>
                 </div>
             </div>
