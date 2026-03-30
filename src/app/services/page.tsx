@@ -11,7 +11,7 @@ export default function ServicesPage() {
     {
       title: "Laptop Repair",
       description:
-        "We repair most windows Laptops Dell, Lenovo, HP and Gaming Laptops.",
+        "We repair most windows Laptops - Dell, Lenovo, HP and Gaming Laptops.",
       image: "/images/Service1 (2).jpg",
       features: [
         "Power Issues",
@@ -24,7 +24,7 @@ export default function ServicesPage() {
     {
       title: "Smart Phone and Tablet Repairs",
       description:
-        "We repair Samsung and Apple smart Phones & Tablets",
+        "We repair Apple and Samsung - smart Phones & Tablets",
       image: "/images/Service2 (2).jpg",
       features: [
         "Screen Replacment",

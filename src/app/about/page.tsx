@@ -80,6 +80,28 @@ export default function AboutPage() {
                     </div>
                     <div className="relative h-96">
                         <Image
+                            src="/images/started.jpg"
+                            alt="Template Office"
+                            fill
+                            className="rounded-lg object-cover"
+                        />
+                    </div>
+                </div>
+                <div className="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 className="text-3xl font-bold mb-6 text-gray-800">Our Story</h2>
+                        <p className="text-gray-600 mb-4">
+                            Describe your company founding story, growth journey, and major milestones here. Include
+                            relevant details about your company development and achievements
+                            over the years.
+                        </p>
+                        <p className="text-gray-600">
+                            Company mission and vision. Describe what makes your company unique and what you
+                            strive to achieve for your clients and stakeholders.
+                        </p>
+                    </div>
+                    <div className="relative h-96">
+                        <Image
                             src="/images/aboutus.jpg"
                             alt="Template Office"
                             fill
