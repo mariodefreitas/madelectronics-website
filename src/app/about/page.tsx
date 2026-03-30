@@ -88,6 +88,14 @@ export default function AboutPage() {
                     </div>
                 </div>
                 <div className="grid md:grid-cols-2 gap-12 items-center">
+                    <div className="relative h-96">
+                        <Image
+                            src="/images/aboutus.jpg"
+                            alt="Template Office"
+                            fill
+                            className="rounded-lg object-cover"
+                        />
+                    </div>
                     <div>
                         <h2 className="text-3xl font-bold mb-6 text-gray-800">Our Story</h2>
                         <p className="text-gray-600 mb-4">
@@ -99,14 +107,6 @@ export default function AboutPage() {
                             Company mission and vision. Describe what makes your company unique and what you
                             strive to achieve for your clients and stakeholders.
                         </p>
-                    </div>
-                    <div className="relative h-96">
-                        <Image
-                            src="/images/aboutus.jpg"
-                            alt="Template Office"
-                            fill
-                            className="rounded-lg object-cover"
-                        />
                     </div>
                 </div>
             </div>
