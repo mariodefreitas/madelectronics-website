@@ -8,7 +8,7 @@ export default function Home() {
     {
       title: "Laptops",
       description:
-        "We repair all types of Windows Laptops. From screen and battery replacement to motherboard power supply component-level repairs.",
+        "We repair most types of Windows Laptops. From screen and battery replacement to motherboard power supply component-level repairs.",
       image: "/images/service1.jpg",
     },
     {

@@ -6,11 +6,10 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\about",
-    "\\src\\app\\contact",
+    "\\src\\app\\services",
     "\\src\\components",
-    "\\src\\components\\layout",
-    "\\src\\components\\ui"
+    "\\src\\components\\layout"
   ],
-  "SelectedNode": "\\public\\images",
+  "SelectedNode": "\\public\\images\\aboutus.jpg",
   "PreviewInSolutionExplorer": false
 }

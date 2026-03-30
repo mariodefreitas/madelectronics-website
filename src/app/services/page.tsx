@@ -11,43 +11,44 @@ export default function ServicesPage() {
     {
       title: "Laptop Repair",
       description:
-        "This is a template service description. Explain your service main features and benefits here. Focus on what makes this service unique and valuable to your customers.",
+        "We repair most windows Laptops Dell, Lenovo, HP and Gaming Laptops.",
       image: "/images/Service1 (2).jpg",
       features: [
-        "Template feature description 1",
-        "Template feature description 2",
-        "Template feature description 3",
-        "Template feature description 4",
+        "Power Issues",
+        "Screen Replacment",
+        "Motherboard Repair",
+        "Battery Replacement",
+        "Water Damage",
       ],
     },
     {
       title: "Smart Phone and Tablet Repairs",
       description:
-        "This is a template service description. Explain your service main features and benefits here. Focus on what makes this service unique and valuable to your customers.",
+        "We repair Samsung and Apple smart Phones & Tablets",
       image: "/images/Service2 (2).jpg",
       features: [
-        "Template feature description 1",
-        "Template feature description 2",
-        "Template feature description 3",
-        "Template feature description 4",
+        "Screen Replacment",
+        "Battery Replacement",
+        "Front and Back Glass Replacement",
+        "Changing Issues",
       ],
     },
     {
       title: "Console Repair",
       description:
-        "This is a template service description. Explain your service main features and benefits here. Focus on what makes this service unique and valuable to your customers.",
+        "We repair Playstation and Xbox gaming Consoles and Controllers.",
       image: "/images/service3.jpg",
       features: [
-        "Template feature description 1",
-        "Template feature description 2",
-        "Template feature description 3",
-        "Template feature description 4",
+        "We repair Playstation  5 / PS5 pro / Ps5 slim",
+        "Xbox One / Xbox One S / Xbox Series X/One x",
+        "Playstation 4 / Slim",
+        "Ps5 controllers/xbox controllers",
       ],
     },
     {
-      title: "Micro Soldering",
+        title: "Other Electronics Repairs",
       description:
-        "This is a template service description. Explain your service main features and benefits here. Focus on what makes this service unique and valuable to your customers.",
+        "We repair other electronics devices at component PCB level.",
       image: "/images/Service4 (3).jpg",
       features: [
         "Template feature description 1",
