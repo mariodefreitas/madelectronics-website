@@ -65,7 +65,7 @@ export default function AboutPage() {
                         <h3 className="text-3xl font-bold mb-6 text-gray-800">Where it all began</h3>
                         <p className="text-gray-600 mb-4">
                             An electronics engineering students bedroom back in 2013. In this picture my first workbench on a old computer stand with the Mrs PacMan main motherboard on the bench can be seen on the right hand side with some testing equipment.
-                            Then amoungst all the electronic devices I tested, repaired and leant from the most important one. Has got to be the 1980's Mrs Pacman machine. As a child I spent many hours playing it and I believe somewhere deep
+                            Then amoungst all the electronic devices I tested, repaired and leant from the most important one. Has got to be the 1980s Mrs Pacman machine. As a child I spent many hours playing it and I believe somewhere deep
                             down in my childhood memories that machine sparked a love for electronics and a desire to understand how it all work. It was the catalyst that set me on the path to becoming an electronics engineer and eventually founding MAD Electronics.
                         </p>
                     </div>
