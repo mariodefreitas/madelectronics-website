@@ -12,13 +12,14 @@ export default function ContactPage() {
         name: "",
         email: "",
         device: "",
+        repaired: "",
         message: "",
     });
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         console.log("Form submitted:", formData);
-        setFormData({ name: "", email: "", device: "", message: "" });
+        setFormData({ name: "", email: "", device: "", repaired: "", message: "" });
         
 
         emailjs
@@ -78,7 +79,7 @@ export default function ContactPage() {
                                             <h3 className="text-lg font-semibold text-green-500 mb-2">
                                                 Email
                                             </h3>
-                                            <p className="text-gray-600">madelectronics8@gmail.com.com</p>
+                                            <p className="text-gray-600">madelectronics8@gmail.com</p>
                                         </div>
                                         <div>
                                             <h3 className="text-lg font-semibold text-green-500 mb-2">
@@ -165,6 +166,26 @@ export default function ContactPage() {
                                             <option value="Tablet">Tablet</option>
                                             <option value="Game Console">Game Console</option>
 			                                <option value="Other">Other</option>
+	                                  </select>
+	                                </div>
+                                    <div>
+		                                <label 
+                                            htmlFor="repaired"
+                                            className="block text-sm font-medium text-gray-700 mb-1"
+                                        >
+                                         Previously Repaired (Device opened and worked on)? 
+                                        </label>
+		                                <select 
+			                                id="repaired" 
+                                            name="repaired"
+			                                value={formData.repaired} 
+			                                onChange={handleChange}
+                                            required
+			                                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+		                                >
+			                                <option value="" disabled>Select one...</option>
+                                            <option value="Yes">Yes</option>
+                                            <option value="No">No</option>
 	                                  </select>
 	                                </div>
                                     <div>
