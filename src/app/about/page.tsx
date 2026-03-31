@@ -11,8 +11,9 @@ export default function AboutPage() {
             name: "Mario De Freitas",
             role: "Director",
             bio: "You can describe the team member experience, achievements, and expertise here. Include relevant qualifications and notable contributions.",
-            image: "/images/team1.jpg",
+            image: "/images/IMG_8043.jpg",
         },
+
        /* {
             name: "Chancelle De Freitas",
             role: "Accountant",
@@ -20,6 +21,27 @@ export default function AboutPage() {
             image: "/images/team2.jpg",
         },*/
     ];
+export default function OurStoryPage() {
+  const storys = [
+    {
+      title: "Laptop Repair",
+      description:
+        "We repair most windows Laptops - Dell, Lenovo, HP and Gaming Laptops.",
+      image: "/images/Service1 (2).jpg",
+    },
+    {
+      title: "Smart Phone and Tablet Repairs",
+      description:
+        "We repair Apple and Samsung - smart Phones & Tablets",
+      image: "/images/Service2 (2).jpg",
+    },
+    {
+      title: "Console Repair",
+      description:
+        "We repair Playstation and Xbox gaming Consoles and Controllers.",
+      image: "/images/service3.jpg",
+    },
+  ];
     {/* }
     const values = [
         {
@@ -56,6 +78,44 @@ export default function AboutPage() {
                     </p>
                 </div>
             </div>
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div className="space-y-24">
+              {storys.map((story, index) => (
+                <div
+                  key={index}
+                  className="bg-white rounded-lg overflow-hidden transition-shadow"
+                >
+                  <div className="grid md:grid-cols-2 gap-8 items-center">
+                    <div
+                      className={`relative h-[400px] ${
+                        index % 2 === 1 ? "md:order-2" : ""
+                      }`}
+                    >
+                      <Image
+                        src={story.image}
+                        alt={story.title}
+                        fill
+                        className="rounded-lg object-cover"
+                      />
+                    </div>
+                    <div className="space-y-6">
+                      <div>
+                        <h2 className="text-3xl font-bold mb-4 text-gray-800">
+                          {story.title}
+                        </h2>
+                        <p className="text-gray-600 text-lg">
+                          {story.description}
+                        </p>
+                      </div>
+
+                      <div className="bg-orange-50 p-6 rounded-lg">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
 
             {/* Company Overview */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
