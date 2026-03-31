@@ -21,6 +21,7 @@ export default function AboutPage() {
             image: "/images/team2.jpg",
         },*/
     ];
+    }
 export default function OurStoryPage() {
   const storys = [
     {
@@ -42,6 +43,7 @@ export default function OurStoryPage() {
       image: "/images/service3.jpg",
     },
   ];
+  }
     {/* }
     const values = [
         {
