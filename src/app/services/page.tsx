@@ -51,7 +51,7 @@ export default function ServicesPage() {
         "We repair other electronics devices at component PCB level.",
       image: "/images/Service4 (3).jpg",
       features: [
-        "Audio Speakers and smart homes devices",
+        "Audio Speakers and Smart Homes Devices",
         "Projectors and Monitors",
         "Power Tools",
         "Testing Equipment",
@@ -66,7 +66,7 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold mb-6">Our Services</h1>
           <p className="text-xl max-w-3xl">
-            At MAD Electronics we will always attempt any repair before recommending replacement, no repair no fee,
+            At MAD Electronics we will always attempt any repair before recommending replacement, no repair no fee.
             If we can source the parts, and you believe it is worth fixing we can fix it.
           </p>
         </div>
