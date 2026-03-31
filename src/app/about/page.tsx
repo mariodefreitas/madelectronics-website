@@ -84,9 +84,9 @@ export default function AboutPage() {
 						/>
 					</div>
                 </div>
-                
+                <div className="space-y-24">
+                </div>
                 <div className="grid md:grid-cols-2 gap-12 items-center">
-                    <div className="space-y-24">
                     <div className="relative h-96">
                         <Image
                             src="/images/aboutus.jpg"
@@ -108,7 +108,6 @@ export default function AboutPage() {
                             strive to achieve for your clients and stakeholders.
                         </p>
 						</div>
-                    </div>
                     </div>
                 </div>
             </div>
