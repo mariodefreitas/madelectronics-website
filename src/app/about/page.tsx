@@ -141,7 +141,7 @@ export default function AboutPage() {
 						</div>
 					</div>
                 </div>
-                </div>
+                
 				
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div className="relative h-96">
