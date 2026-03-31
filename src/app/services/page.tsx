@@ -54,7 +54,7 @@ export default function ServicesPage() {
         "Audio Speakers and smart homes devices",
         "Projectors and Monitors",
         "Power Tools",
-        "Coffee Machines",
+        "Testing Equipment",
       ],
     },
   ];
