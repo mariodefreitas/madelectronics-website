@@ -69,17 +69,17 @@ export default function AboutPage() {
 						    <p className="text-gray-600 mb-4">
 						    An electronics engineering student’s bedroom back in 2013. On the right‑hand side of the picture you can see my very first workbench—an old computer stand repurposed with electronic testing equipment.
 						    </p>
-                            <p>
+                            <p className="text-gray-600 mb-4">
                             Among all the electronic devices in this picture—each one tested, repaired, 
                             and learned from—the most important has to be the 1980s Ms. Pac‑Man machine.
                             </p>
-                            <p>
+                            <p className="text-gray-600 mb-4">
                             As a child, I spent countless hours playing it, completely absorbed in the 
                             colours, the sounds, and the mystery of what was happening inside. Looking back, 
                             I’m certain that somewhere deep in those early memories, seeing the motherboard sparked 
                             something in me—a fascination with electronics and a desire to understand how it all worked.
                             </p>
-                            <p>
+                            <p className="text-gray-600 mb-4">
                             That arcade machine wasn’t just a game. It was the catalyst that set me on the 
                             path to becoming an electronics engineer.
                             </p>
@@ -96,7 +96,7 @@ export default function AboutPage() {
                 </div>
                 <div className="space-y-24">
                 </div>
-                <div className="grid md:grid-cols-2 gap-12 items-center">
+                <div className="grid md:grid-cols-2 gap-12 items-center py-16" >
                     <div className="relative h-96">
                         <Image
                             src="/images/aboutus.jpg"
@@ -109,7 +109,7 @@ export default function AboutPage() {
                         <h3 className="text-3xl font-bold mb-6 text-gray-800"></h3>
 						<div className="bg-orange-50 p-6 rounded-lg">
                         <p className="text-gray-600 mb-4">
-                            This next picture is from around three years later, repairing a damaged laptop while still using that same old workbench. By then I’d added a few more tools to my setup — an iFixit kit, some LED lighting, and a rubber mat — small upgrades that made a big difference as I kept learning, experimenting, and improving my craft
+                            This next picture is from around three years later, repairing a damaged laptop while still using that same old workbench. By then I’d added a few more tools to my setup — an iFixit kit, LED lighting, and a anti static mat — small upgrades that made a big difference as I kept learning, experimenting, and improving my craft
                         </p>
                         <p className="text-gray-600">
                             Company mission and vision. Describe what makes your company unique and what you
