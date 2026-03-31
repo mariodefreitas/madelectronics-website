@@ -10,7 +10,7 @@ export default function AboutPage() {
         {
             name: "Mario De Freitas",
             role: "Electronic Engineer",
-            bio: "Mario has an Electrical Engineering Degree and has worked for various Electronic and Software Companies over the last 13 years.",
+            bio: "Mario has an Electrical Engineering Degree and has worked for various Electronic Engineering and Software Companies over the last 13 years.",
             image: "/images/IMG_8044.jpg",
         },
 
@@ -66,9 +66,10 @@ export default function AboutPage() {
                         <h2 className="text-3xl font-bold mb-6 text-gray-800">Our Story</h2>
                         <h3 className="text-green-500 text-lg">Where it all began</h3>
 						<div className="bg-orange-50 p-6 rounded-lg">
-						<p className="text-gray-600 mb-4">
+						    <p className="text-gray-600 mb-4">
 						    An electronics engineering student’s bedroom back in 2013. On the right‑hand side of the picture you can see my very first workbench—an old computer stand repurposed with electronic testing equipment.
-						    <p>
+						    </p>
+                            <p>
                             Among all the electronic devices in this picture—each one tested, repaired, 
                             and learned from—the most important has to be the 1980s Ms. Pac‑Man machine.
                             </p>
@@ -82,7 +83,6 @@ export default function AboutPage() {
                             That arcade machine wasn’t just a game. It was the catalyst that set me on the 
                             path to becoming an electronics engineer.
                             </p>
-                        </p>
 						</div>
 					</div>
 					<div className="relative h-96">
@@ -109,9 +109,7 @@ export default function AboutPage() {
                         <h3 className="text-3xl font-bold mb-6 text-gray-800"></h3>
 						<div className="bg-orange-50 p-6 rounded-lg">
                         <p className="text-gray-600 mb-4">
-                            Describe your company founding story, growth journey, and major milestones here. Include
-                            relevant details about your company development and achievements
-                            over the years.
+                            This next picture is from around three years later, repairing a damaged laptop while still using that same old workbench. By then I’d added a few more tools to my setup — an iFixit kit, some LED lighting, and a rubber mat — small upgrades that made a big difference as I kept learning, experimenting, and improving my craft
                         </p>
                         <p className="text-gray-600">
                             Company mission and vision. Describe what makes your company unique and what you
