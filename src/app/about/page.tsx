@@ -21,6 +21,26 @@ export default function AboutPage() {
             image: "/images/team2.jpg",
         },*/
     ];
+  const storys = [
+    {
+      title: "Where it all Began",
+      description:
+        "We repair most windows Laptops - Dell, Lenovo, HP and Gaming Laptops.",
+      image: "/images/started.jpg",
+    },
+    {
+      title: "Smart Phone and Tablet Repairs",
+      description:
+        "We repair Apple and Samsung - smart Phones & Tablets",
+      image: "/images/Service2 (2).jpg",
+    },
+    {
+      title: "Console Repair",
+      description:
+        "We repair Playstation and Xbox gaming Consoles and Controllers.",
+      image: "/images/service3.jpg",
+    },
+  ];
     {/* }
     const values = [
         {
@@ -57,34 +77,72 @@ export default function AboutPage() {
                     </p>
                 </div>
             </div>
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div className="space-y-24">
+              {storys.map((story, index) => (
+                <div
+                  key={index}
+                  className="bg-white rounded-lg overflow-hidden transition-shadow"
+                >
+                  <div className="grid md:grid-cols-2 gap-8 items-center">
+                    <div
+                      className={`relative h-[400px] ${
+                        index % 2 === 1 ? "md:order-2" : ""
+                      }`}
+                    >
+                      <Image
+                        src={story.image}
+                        alt={story.title}
+                        fill
+                        className="rounded-lg object-cover"
+                      />
+                    </div>
+                    <div className="space-y-6">
+                      <div>
+                        <h2 className="text-3xl font-bold mb-4 text-gray-800">
+                          {story.title}
+                        </h2>
+                        <p className="text-gray-600 text-lg">
+                          {story.description}
+                        </p>
+                      </div>
+
+                      <div className="bg-orange-50 p-6 rounded-lg">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
 
             {/* Company Overview */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
+                <div className="space-y-24">
                     <div>
                         <h2 className="text-3xl font-bold mb-6 text-gray-800">Our Story</h2>
                         <h3 className="text-green-500 text-lg">Where it all Began</h3>
-						<div className="bg-orange-50 p-6 rounded-lg">
-						<p className="text-gray-600 mb-4">
-						An electronics engineering students bedroom back in 2013. In this picture my first ever workbench on an old computer stand can be seen on the right hand side with some electronics testing equipment.
-						</p>
-						<p className="text-gray-600">
-						Then amoungst all the electronic devices I tested, repaired and leant from the most important one. Has got to be the 1980s Mrs Pacman machine.
-						As a child I spent many hours playing it and I believe somewhere deep down in my childhood memories that machine sparked a love for electronics and a desire to understand how it all worked. It was the catalyst that set me on the path to becoming an electronics engineer.
-						</p>
-						</div>
-						<div className="relative h-96">
-							<Image
-							src="/images/started.jpg"
-							alt="Template Office"
-							fill
-							className="rounded-lg object-cover"
-							/>
-						</div>
+                            <div className="bg-orange-50 p-6 rounded-lg">
+                            <p className="text-gray-600 mb-4">
+                            An electronics engineering students bedroom back in 2013. In this picture my first ever workbench on an old computer stand can be seen on the right hand side with some electronics testing equipment.
+                            </p>
+                            <p className="text-gray-600">
+                            Then amoungst all the electronic devices I tested, repaired and leant from the most important one. Has got to be the 1980s Mrs Pacman machine.
+                            As a child I spent many hours playing it and I believe somewhere deep down in my childhood memories that machine sparked a love for electronics and a desire to understand how it all worked. It was the catalyst that set me on the path to becoming an electronics engineer.
+                            </p>
+                            <div className="relative h-96">
+                                <Image
+                                src="/images/started.jpg"
+                                alt="Template Office"
+                                fill
+                                className="rounded-lg object-cover"
+                                />
+                            </div>
+                            </div>
 					</div>
                 </div>
                 </div>
-				
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div className="relative h-96">
                         <Image
@@ -96,7 +154,6 @@ export default function AboutPage() {
                     </div>
                     <div>
                         <h3 className="text-3xl font-bold mb-6 text-gray-800"></h3>
-						<div className="bg-orange-50 p-6 rounded-lg">
                         <p className="text-gray-600 mb-4">
                             Describe your company founding story, growth journey, and major milestones here. Include
                             relevant details about your company development and achievements
@@ -106,7 +163,6 @@ export default function AboutPage() {
                             Company mission and vision. Describe what makes your company unique and what you
                             strive to achieve for your clients and stakeholders.
                         </p>
-						</div>
                     </div>
                 </div>
             </div>
