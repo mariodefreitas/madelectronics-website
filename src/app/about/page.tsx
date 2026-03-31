@@ -131,7 +131,6 @@ export default function AboutPage() {
                             Then amoungst all the electronic devices I tested, repaired and leant from the most important one. Has got to be the 1980s Mrs Pacman machine.
                             As a child I spent many hours playing it and I believe somewhere deep down in my childhood memories that machine sparked a love for electronics and a desire to understand how it all worked. It was the catalyst that set me on the path to becoming an electronics engineer.
                             </p>
-                            </div>
                             <div className="relative h-96">
                                 <Image
                                 src="/images/started.jpg"
@@ -139,6 +138,7 @@ export default function AboutPage() {
                                 fill
                                 className="rounded-lg object-cover"
                                 />
+                            </div>
                             </div>
 					</div>
                 </div>
