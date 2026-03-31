@@ -62,7 +62,7 @@ export default function AboutPage() {
             {/* Company Overview */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
-                <div className="space-y-24">
+                    <div className="space-y-24">
                     <div>
                         <h2 className="text-3xl font-bold mb-6 text-gray-800">Our Story</h2>
                         <h3 className="text-green-500 text-lg">Where it all Began</h3>
@@ -84,7 +84,7 @@ export default function AboutPage() {
 						className="rounded-lg object-cover"
 						/>
 					</div>
-                </div>
+                    </div>
                 </div>
                 
 				
