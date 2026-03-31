@@ -132,7 +132,6 @@ export default function AboutPage() {
                             As a child I spent many hours playing it and I believe somewhere deep down in my childhood memories that machine sparked a love for electronics and a desire to understand how it all worked. It was the catalyst that set me on the path to becoming an electronics engineer.
                             </p>
                             </div>
-                            </div>
                             <div className="relative h-96">
                                 <Image
                                 src="/images/started.jpg"
@@ -141,7 +140,8 @@ export default function AboutPage() {
                                 className="rounded-lg object-cover"
                                 />
                             </div>
-                    </div>
+					</div>
+                </div>
                 </div>
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div className="relative h-96">
