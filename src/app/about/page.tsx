@@ -21,14 +21,12 @@ export default function AboutPage() {
             image: "/images/team2.jpg",
         },*/
     ];
-    }
-export default function OurStoryPage() {
   const storys = [
     {
-      title: "Laptop Repair",
+      title: "Where it all Began",
       description:
         "We repair most windows Laptops - Dell, Lenovo, HP and Gaming Laptops.",
-      image: "/images/Service1 (2).jpg",
+      image: "/images/started.jpg",
     },
     {
       title: "Smart Phone and Tablet Repairs",
@@ -43,7 +41,6 @@ export default function OurStoryPage() {
       image: "/images/service3.jpg",
     },
   ];
-  }
     {/* }
     const values = [
         {
@@ -242,3 +239,4 @@ export default function OurStoryPage() {
             </div> */}
         </div>
     );
+}
