@@ -11,7 +11,7 @@ export default function AboutPage() {
             name: "Mario De Freitas",
             role: "Director",
             bio: "You can describe the team member experience, achievements, and expertise here. Include relevant qualifications and notable contributions.",
-            image: "/images/IMG_8043.jpg",
+            image: "/images/IMG_8044.jpg",
         },
 
        /* {
@@ -131,17 +131,17 @@ export default function AboutPage() {
                             Then amoungst all the electronic devices I tested, repaired and leant from the most important one. Has got to be the 1980s Mrs Pacman machine.
                             As a child I spent many hours playing it and I believe somewhere deep down in my childhood memories that machine sparked a love for electronics and a desire to understand how it all worked. It was the catalyst that set me on the path to becoming an electronics engineer.
                         </p>
+                        </div>
                     </div>
-                    <div className="relative h-96">
-                        <Image
-                            src="/images/started.jpg"
-                            alt="Template Office"
-                            fill
-                            className="rounded-lg object-cover"
-                        />
-                    </div>
-                    </div>
-                </div>
+                        <div className="relative h-96">
+                            <Image
+                                src="/images/started.jpg"
+                                alt="Template Office"
+                                fill
+                                className="rounded-lg object-cover"
+                            />
+                        </div>
+                     </div>
                 </div>
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div className="relative h-96">
