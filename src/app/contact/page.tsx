@@ -114,13 +114,13 @@ export default function ContactPage() {
                                             htmlFor="name"
                                             className="block text-sm font-medium text-gray-700 mb-1"
                                         >
-                                            Name
+                                            Full Name
                                         </label>
                                         <input
                                             type="text"
                                             id="name"
                                             name="name"
-                                            placeholder="Name"
+                                            placeholder="Full Name"
                                             value={formData.name}
                                             onChange={handleChange}
                                             required
