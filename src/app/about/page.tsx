@@ -119,30 +119,30 @@ export default function AboutPage() {
             {/* Company Overview */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
-                <div className="space-y-24">
                     <div>
                         <h2 className="text-3xl font-bold mb-6 text-gray-800">Our Story</h2>
                         <h3 className="text-green-500 text-lg">Where it all Began</h3>
-                            <div className="bg-orange-50 p-6 rounded-lg">
-                            <p className="text-gray-600 mb-4">
-                            An electronics engineering students bedroom back in 2013. In this picture my first ever workbench on an old computer stand can be seen on the right hand side with some electronics testing equipment.
-                            </p>
-                            <p className="text-gray-600">
-                            Then amoungst all the electronic devices I tested, repaired and leant from the most important one. Has got to be the 1980s Mrs Pacman machine.
-                            As a child I spent many hours playing it and I believe somewhere deep down in my childhood memories that machine sparked a love for electronics and a desire to understand how it all worked. It was the catalyst that set me on the path to becoming an electronics engineer.
-                            </p>
-                            <div className="relative h-96">
-                                <Image
-                                src="/images/started.jpg"
-                                alt="Template Office"
-                                fill
-                                className="rounded-lg object-cover"
-                                />
-                            </div>
-                            </div>
+						<div className="bg-orange-50 p-6 rounded-lg">
+						<p className="text-gray-600 mb-4">
+						An electronics engineering students bedroom back in 2013. In this picture my first ever workbench on an old computer stand can be seen on the right hand side with some electronics testing equipment.
+						</p>
+						<p className="text-gray-600">
+						Then amoungst all the electronic devices I tested, repaired and leant from the most important one. Has got to be the 1980s Mrs Pacman machine.
+						As a child I spent many hours playing it and I believe somewhere deep down in my childhood memories that machine sparked a love for electronics and a desire to understand how it all worked. It was the catalyst that set me on the path to becoming an electronics engineer.
+						</p>
+						</div>
+						<div className="relative h-96">
+							<Image
+							src="/images/started.jpg"
+							alt="Template Office"
+							fill
+							className="rounded-lg object-cover"
+							/>
+						</div>
 					</div>
                 </div>
                 </div>
+				
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div className="relative h-96">
                         <Image
@@ -154,6 +154,7 @@ export default function AboutPage() {
                     </div>
                     <div>
                         <h3 className="text-3xl font-bold mb-6 text-gray-800"></h3>
+						<div className="bg-orange-50 p-6 rounded-lg">
                         <p className="text-gray-600 mb-4">
                             Describe your company founding story, growth journey, and major milestones here. Include
                             relevant details about your company development and achievements
@@ -163,6 +164,7 @@ export default function AboutPage() {
                             Company mission and vision. Describe what makes your company unique and what you
                             strive to achieve for your clients and stakeholders.
                         </p>
+						</div>
                     </div>
                 </div>
             </div>
