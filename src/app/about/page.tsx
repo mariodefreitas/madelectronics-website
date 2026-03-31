@@ -71,7 +71,7 @@ export default function AboutPage() {
 						An electronics engineering students bedroom back in 2013. In this picture my first ever workbench on an old computer stand can be seen on the right hand side with some electronics testing equipment.
 						</p>
 						<p className="text-gray-600">
-						Then amoungst all the electronic devices I tested, repaired and lean't from the most important one. Has got to be the 1980s Mrs Pacman machine.
+						Amoungst all the electronic devices I tested, repaired and learnt from the most important one. Has got to be the 1980s Mrs Pacman machine.
 						As a child I spent many hours playing it and I believe somewhere deep down in my childhood memories that machine sparked a love for electronics and a desire to understand how it all worked. It was the catalyst that set me on the path to becoming an electronics engineer.
 						</p>
 						</div>
