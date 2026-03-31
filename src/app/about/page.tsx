@@ -9,8 +9,8 @@ export default function AboutPage() {
     const teamMembers = [
         {
             name: "Mario De Freitas",
-            role: "Electronic Engieer",
-            bio: "I have a Electrical Engineering Degree, have worked for various Electronic and Software Companies over the last 13 years.",
+            role: "Electronic Engineer",
+            bio: "Mario has an Electrical Engineering Degree and has worked for various Electronic and Software Companies over the last 13 years.",
             image: "/images/IMG_8044.jpg",
         },
 
@@ -64,15 +64,26 @@ export default function AboutPage() {
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div>
                         <h2 className="text-3xl font-bold mb-6 text-gray-800">Our Story</h2>
-                        <h3 className="text-green-500 text-lg">Where it all began...</h3>
+                        <h3 className="text-green-500 text-lg">Where it all began</h3>
 						<div className="bg-orange-50 p-6 rounded-lg">
 						<p className="text-gray-600 mb-4">
-						An electronics engineering students bedroom back in 2013. In this picture my first ever workbench on an old computer stand can be seen on the right hand side with some electronics testing equipment.
+						    An electronics engineering student’s bedroom back in 2013. On the right‑hand side of the picture you can see my very first workbench—an old computer stand repurposed with electronic testing equipment.
 						</p>
-						<p className="text-gray-600">
-						Amoungst all the electronic devices I tested, repaired and learnt from the most important one. Has got to be the 1980s Mrs Pacman machine.
-						As a child I spent many hours playing it and I believe somewhere deep down in my childhood memories that machine sparked a love for electronics and a desire to understand how it all worked. It was the catalyst that set me on the path to becoming an electronics engineer.
-						</p>
+						 <p>
+                            Among all the electronic devices in this picture—each one tested, repaired, 
+                            and learned from—the most important has to be the 1980s Ms. Pac‑Man machine.
+                        </p>
+                        <p>
+                            As a child, I spent countless hours playing it, completely absorbed in the 
+                            colours, the sounds, and the mystery of what was happening inside. Looking back, 
+                            I’m certain that somewhere deep in those early memories, that motherboard sparked 
+                            something in me—a fascination with electronics and a desire to understand how it all worked.
+                        </p>
+                        <p>
+                            That arcade machine wasn’t just a game. It was the catalyst that set me on the 
+                            path to becoming an electronics engineer.
+                        </p>
+
 						</div>
 					</div>
 					<div className="relative h-96">
