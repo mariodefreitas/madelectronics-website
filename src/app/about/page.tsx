@@ -111,10 +111,6 @@ export default function AboutPage() {
                         <p className="text-gray-600 mb-4">
                             This next picture is from around three years later, repairing a damaged laptop while still using that same old workbench. By then I’d added a few more tools to my setup — an iFixit kit, LED lighting, and a anti static mat — small upgrades that made a big difference as I kept learning, experimenting, and improving my craft
                         </p>
-                        <p className="text-gray-600">
-                            Company mission and vision. Describe what makes your company unique and what you
-                            strive to achieve for your clients and stakeholders.
-                        </p>
 						</div>
                     </div>
                 </div>

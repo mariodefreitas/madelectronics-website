@@ -14,13 +14,13 @@ export default function Home() {
     {
       title: "Smart Phones & Tablets",
       description:
-        "We repair Samsung and Apple smart Phones & Tablets. From screen and battery replacement to motherboard power supply component-level repairs.",
+        "We repair Apple and Samsung smart Phones & Tablets. From screen and battery replacement to motherboard repairs.",
       image: "/images/service2.jpg",
     },
     {
       title: "Consoles",
       description:
-        "We repair Playstation and Xbox gaming Consoles and Controllers.",
+        "We repair Playstation and Xbox Gaming Consoles and Controllers.",
       image: "/images/service3.jpg",
     },
     {

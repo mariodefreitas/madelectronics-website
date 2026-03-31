@@ -51,10 +51,10 @@ export default function ServicesPage() {
         "We repair other electronics devices at component PCB level.",
       image: "/images/Service4 (3).jpg",
       features: [
-        "Template feature description 1",
-        "Template feature description 2",
-        "Template feature description 3",
-        "Template feature description 4",
+        "Audio Speakers and smart homes devices",
+        "Projectors and Monitors",
+        "Power Tools",
+        "Coffee Machines",
       ],
     },
   ];
@@ -66,8 +66,8 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold mb-6">Our Services</h1>
           <p className="text-xl max-w-3xl">
-            This is a template introduction for your services page. Describe
-            your company service offerings and what makes them special.
+            At MAD Electronics we will always attempt any repair before recommending replacement, no repair no fee,
+            If we can source the parts, and you believe it is worth fixing we can fix it.
           </p>
         </div>
       </div>
