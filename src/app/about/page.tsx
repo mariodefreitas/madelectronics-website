@@ -68,22 +68,21 @@ export default function AboutPage() {
 						<div className="bg-orange-50 p-6 rounded-lg">
 						<p className="text-gray-600 mb-4">
 						    An electronics engineering student’s bedroom back in 2013. On the right‑hand side of the picture you can see my very first workbench—an old computer stand repurposed with electronic testing equipment.
-						</p>
-						 <p>
+						    <p>
                             Among all the electronic devices in this picture—each one tested, repaired, 
                             and learned from—the most important has to be the 1980s Ms. Pac‑Man machine.
-                        </p>
-                        <p>
+                            </p>
+                            <p>
                             As a child, I spent countless hours playing it, completely absorbed in the 
                             colours, the sounds, and the mystery of what was happening inside. Looking back, 
-                            I’m certain that somewhere deep in those early memories, that motherboard sparked 
+                            I’m certain that somewhere deep in those early memories, seeing the motherboard sparked 
                             something in me—a fascination with electronics and a desire to understand how it all worked.
-                        </p>
-                        <p>
+                            </p>
+                            <p>
                             That arcade machine wasn’t just a game. It was the catalyst that set me on the 
                             path to becoming an electronics engineer.
+                            </p>
                         </p>
-
 						</div>
 					</div>
 					<div className="relative h-96">
