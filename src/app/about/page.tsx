@@ -64,7 +64,7 @@ export default function AboutPage() {
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div>
                         <h2 className="text-3xl font-bold mb-6 text-gray-800">Our Story</h2>
-                        <h3 className="text-green-500 text-lg">Where it all Began</h3>
+                        <h3 className="text-green-500 text-lg">Where it all began...</h3>
 						<div className="bg-orange-50 p-6 rounded-lg">
 						<p className="text-gray-600 mb-4">
 						An electronics engineering students bedroom back in 2013. In this picture my first ever workbench on an old computer stand can be seen on the right hand side with some electronics testing equipment.
@@ -86,7 +86,7 @@ export default function AboutPage() {
                 </div>
                 
                 <div className="grid md:grid-cols-2 gap-12 items-center">
-                <div className="space-y-24">
+                    <div className="space-y-24">
                     <div className="relative h-96">
                         <Image
                             src="/images/aboutus.jpg"
@@ -109,7 +109,7 @@ export default function AboutPage() {
                         </p>
 						</div>
                     </div>
-                </div>
+                    </div>
                 </div>
             </div>
 
