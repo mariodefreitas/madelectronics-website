@@ -75,9 +75,9 @@ export default function AboutPage() {
                             </p>
                             <p className="text-gray-600 mb-4">
                             As a child, I spent countless hours playing it, chasing the all time best high score, absorbed in the 
-                            colours, the sounds, and the mystery of what was happening inside. Looking back, 
-                            I’m certain that somewhere deep in those early memories, seeing the motherboard and various components sparked 
-                            something in me—a fascination with electronics and a desire to understand how it all worked.
+                            colours, the sounds, and the mystery of what was happening inside. Looking back, I’m certain that somewhere 
+                            deep in those early memories, seeing the motherboard and various components woking together sparked something 
+                            in me—a fascination with electronics and a desire to understand how it all worked.
                             </p>
                             <p className="text-gray-600 mb-4">
                             That arcade machine wasn’t just a game. It was the catalyst that set me on the 
