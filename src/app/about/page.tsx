@@ -18,7 +18,7 @@ export default function AboutPage() {
             name: "Chancelle Cresswell",
             role: "Chartered Accountant",
             bio: "You can describe the team member experience, achievements, and expertise here. Include relevant qualifications and notable contributions.",
-            image: "/images/IMG_8051.jpg",
+            image: "/images/IMG_8052.jpg",
         },
     ];
 
