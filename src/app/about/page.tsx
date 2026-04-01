@@ -14,12 +14,12 @@ export default function AboutPage() {
             image: "/images/IMG_8044.jpg",
         },
 
-       /* {
-            name: "Chancelle De Freitas",
-            role: "Accountant",
+        {
+            name: "Chancelle Cresswell",
+            role: "Chartered Accountant",
             bio: "You can describe the team member experience, achievements, and expertise here. Include relevant qualifications and notable contributions.",
-            image: "/images/team2.jpg",
-        },*/
+            image: "/images/IMG_8051.jpg",
+        },
     ];
 
     {/* }
