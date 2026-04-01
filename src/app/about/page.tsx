@@ -74,9 +74,9 @@ export default function AboutPage() {
                             and learned from—the most important has to be the 1980s Ms. Pac‑Man machine.
                             </p>
                             <p className="text-gray-600 mb-4">
-                            As a child, I spent countless hours playing it, completely absorbed in the 
+                            As a child, I spent countless hours playing it, chasing the all time best high score, absorbed in the 
                             colours, the sounds, and the mystery of what was happening inside. Looking back, 
-                            I’m certain that somewhere deep in those early memories, seeing the motherboard sparked 
+                            I’m certain that somewhere deep in those early memories, seeing the motherboard and various components sparked 
                             something in me—a fascination with electronics and a desire to understand how it all worked.
                             </p>
                             <p className="text-gray-600 mb-4">
@@ -109,7 +109,7 @@ export default function AboutPage() {
                         <h3 className="text-3xl font-bold mb-6 text-gray-800"></h3>
 						<div className="bg-orange-50 p-6 rounded-lg">
                         <p className="text-gray-600 mb-4">
-                            This next picture is from around three years later, repairing a damaged laptop while still using that same old workbench. By then I’d added a few more tools to my setup — an iFixit kit, LED lighting, and a anti static mat — small upgrades that made a big difference as I kept learning, experimenting, and improving my craft
+                            This next picture is from around three years later, repairing a damaged laptop while still using that same old workbench. By then I’d added a few more tools and equipment to my setup — A new dual variable power supply, Hot Air soldering station, an iFixit kit, LED lighting, and a anti static mat — small upgrades that made a big difference as I kept learning, experimenting, and improving my craft.
                         </p>
 						</div>
                     </div>

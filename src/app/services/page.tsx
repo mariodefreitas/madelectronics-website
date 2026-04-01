@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -39,10 +39,10 @@ export default function ServicesPage() {
         "We repair Playstation and Xbox gaming Consoles and Controllers.",
       image: "/images/service3.jpg",
       features: [
-        "We repair Playstation  5 / PS5 pro / Ps5 slim",
-        "Xbox One / Xbox One S / Xbox Series X/One x",
+        "We repair Playstation  5 / PS5 Pro / Ps5 Slim",
+        "Xbox One / Xbox One S / Xbox Series X / One X",
         "Playstation 4 / Slim",
-        "Ps5 controllers/xbox controllers",
+        "Ps5 Controllers / Xbox Controllers",
       ],
     },
     {
@@ -66,8 +66,8 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold mb-6">Our Services</h1>
           <p className="text-xl max-w-3xl">
-            At MAD Electronics we will always attempt any repair before recommending replacement, no repair no fee.
-            If we can source the parts, and you believe it is worth fixing we can fix it.
+            At MAD Electronics, we always attempt a repair before ever recommending a replacement — and with our no‑repair, no‑fee policy, you only pay when we succeed.
+            If we can source the parts and you believe the device is worth saving, we’ll give it our absolute best shot. Our mission is simple: extend the life of your tech and keep perfectly fixable devices out of land waste.
           </p>
         </div>
       </div>
