@@ -66,8 +66,9 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold mb-6">Our Services</h1>
           <p className="text-xl max-w-3xl">
-            At MAD Electronics, we always attempt a repair before ever recommending a replacement — and with our no‑repair, no‑fee policy, you only pay when we succeed.
-            If we can source the parts and you believe the device is worth saving, we’ll give it our absolute best shot. Our mission is simple: extend the life of your tech and keep perfectly fixable devices out of land waste.
+            At MAD Electronics, we always prioritise repair over replacement. With our no‑repair, no‑fee approach, you only pay when your device is successfully restored.
+            If the parts are available and you want to keep your device going, we’ll put in the work to bring it back to life — helping reduce waste and extend the lifespan of your tech.
+
           </p>
         </div>
       </div>
